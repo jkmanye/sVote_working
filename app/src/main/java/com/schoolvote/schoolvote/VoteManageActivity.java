@@ -123,7 +123,6 @@ public class VoteManageActivity extends AppCompatActivity {
 
     public Map<Long, Long> getTotal(int all, Map<String, String> Lists, Map<String, Long> answer) {
         Map<Long, Long> total = new HashMap<>();
-//        Map<String, Long> percentage = new HashMap<>();
         for (String key : Lists.keySet()) {
             total.put(Long.parseLong(key), 0L);
         }
@@ -147,14 +146,14 @@ public class VoteManageActivity extends AppCompatActivity {
                     Map<String, Long> answer = (Map) documentSnapshot.get("answer");
                     Map<Long, Long> total = getTotal(answer.size(), Lists, answer);
                     List<String> displayTotal = new ArrayList<>();
-                    long percentage = 0;
+                    long percentage ;
 
                     if(answer.size() > 0) {
                         for (String key : Lists.keySet()) {
                             if(total.get(Long.parseLong(key)) > 0) {
                                 percentage = total.get(Long.parseLong(key)) * 100 / answer.size();
                             } else percentage = 0;
-                            displayTotal.add(String.format("%d%s %s\n%s %d %s %d%s", Long.parseLong(key) + 1, "번 항목 :", Lists.get(key), "득표수 :", total.get(Long.parseLong(key)), "득표율 :", percentage, "%"));
+                            displayTotal.add(String.format("%d%s %s\n%s %d %s %s %d%s", Long.parseLong(key) + 1, "번 항목 :", Lists.get(key), "득표수 :", total.get(Long.parseLong(key)),",", "득표율 :", percentage, "%"));
                         }
                         diabuildTotal.setTitle(currentUser.getJoiningVoteTitle());
                         final CharSequence[] items = displayTotal.toArray(new String[displayTotal.size()]);
@@ -162,6 +161,7 @@ public class VoteManageActivity extends AppCompatActivity {
                         diabuildTotal.show();
                     }
                 } else {
+                    diabuildTotal.setTitle(currentUser.getJoiningVoteTitle());
                     diabuildTotal.setMessage("아무도 응답하지 않았습니다!");
                     diabuildTotal.setPositiveButton("예", new DialogInterface.OnClickListener() {
                         @Override
