@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/chu/Desktop/sVote4 6/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml",
+            "outputFile": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml",
             "map": [
                 {
                     "source": "/Users/chu/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/res/values-hy/values.xml",
