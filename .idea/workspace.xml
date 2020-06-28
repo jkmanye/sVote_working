@@ -6,13 +6,23 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeb67b03-257b-4b35-bf4b-1730f0ad5deb" name="Default Changelist" comment="" />
+    <list default="true" id="aeb67b03-257b-4b35-bf4b-1730f0ad5deb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/schoolvote/schoolvote/BuildConfig 2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_vote_schedule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_vote_schedule.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_XL_API_30" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="R39M30149TT" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -25,6 +35,9 @@
       </state>
     </system>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dr3rIq1FCjmJVufL0CatYxwrVA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,7 +45,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="app" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
@@ -135,13 +154,15 @@
     </state>
     <state width="1238" height="157" key="GridCell.Tab.0.right/0.23.1280.714@0.23.1280.714" timestamp="1593324266753" />
     <state width="1238" height="157" key="GridCell.Tab.0.right/0.23.1280.716@0.23.1280.716" timestamp="1593337923163" />
-    <state x="304" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1593169601158">
-      <screen x="0" y="23" width="1280" height="712" />
-    </state>
-    <state x="304" y="211" key="com.intellij.ide.util.TipDialog/0.23.1280.712@0.23.1280.712" timestamp="1593169601158" />
-    <state x="305" y="61" width="670" height="678" key="search.everywhere.popup" timestamp="1593336444419">
+    <state x="304" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1593339842733">
       <screen x="0" y="23" width="1280" height="716" />
     </state>
+    <state x="304" y="211" key="com.intellij.ide.util.TipDialog/0.23.1280.712@0.23.1280.712" timestamp="1593169601158" />
+    <state x="304" y="212" key="com.intellij.ide.util.TipDialog/0.23.1280.716@0.23.1280.716" timestamp="1593339842733" />
+    <state x="305" y="39" width="670" height="700" key="search.everywhere.popup" timestamp="1593339888690">
+      <screen x="0" y="0" width="1280" height="739" />
+    </state>
+    <state x="305" y="39" width="670" height="700" key="search.everywhere.popup/0.0.1280.739@0.0.1280.739" timestamp="1593339888690" />
     <state x="305" y="61" width="670" height="676" key="search.everywhere.popup/0.23.1280.714@0.23.1280.714" timestamp="1593324114595" />
     <state x="305" y="61" width="670" height="678" key="search.everywhere.popup/0.23.1280.716@0.23.1280.716" timestamp="1593336444419" />
   </component>
