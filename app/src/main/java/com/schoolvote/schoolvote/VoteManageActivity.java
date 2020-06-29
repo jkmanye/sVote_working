@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -35,6 +36,8 @@ public class VoteManageActivity extends AppCompatActivity {
     TextView title_vm;
     TextView subtitle_vm;
     TextView forsomeone_vm;
+    EditText searchfor_vm;
+    Button search_vm;
 
     AlertDialog.Builder diabuild;
     AlertDialog.Builder diabuildTotal;
@@ -51,6 +54,9 @@ public class VoteManageActivity extends AppCompatActivity {
         title_vm = findViewById(R.id.title_vm);
         subtitle_vm = findViewById(R.id.subtitle_vm);
         forsomeone_vm = findViewById(R.id.forsomeone_vm);
+        search_vm = findViewById(R.id.search_vm);
+        searchfor_vm = findViewById(R.id.searchfor_vm);
+
         loadData();
     }
 

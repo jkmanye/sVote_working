@@ -3,7 +3,10 @@ package com.schoolvote.schoolvote;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -15,24 +18,28 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
+import org.w3c.dom.Text;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class VoteScheduleActivity extends AppCompatActivity {
 
-    TextView vote_vs;
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     String email;
     String title;
     User currentUser;
+    LinearLayout container;
+    LinearLayout.LayoutParams lp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vote_schedule);
-        vote_vs = findViewById(R.id.vote_vs);
+        lp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
         currentUser = (User) getIntent().getSerializableExtra("currentUser");
         email = currentUser.getEmail();
+        container = findViewById(R.id.linear_vs);
         Map<String, Long> forsomeone = new HashMap<>();
         if (currentUser != null) {
             forsomeone.put("grade", currentUser.getGrade_update());
@@ -52,25 +59,28 @@ public class VoteScheduleActivity extends AppCompatActivity {
                 public void onComplete(@NonNull Task<QuerySnapshot> task) {
                     if (task.isSuccessful()) {
                         for (QueryDocumentSnapshot document : task.getResult()) {
+                            lp.gravity = Gravity.CENTER;
                             title = (String) document.get("title");
+                            TextView textView = new TextView(VoteScheduleActivity.this);
+                            textView.setText(title);
+                            textView.setTextSize(36f);
+                            textView.setOnClickListener(new TextView.OnClickListener() {
+                                @Override
+                                public void onClick(View view) {
+                                    TextView v = (TextView)view;
+                                    currentUser.setJoiningVoteTitle(v.getText().toString());
+                                    final Intent intent = new Intent(VoteScheduleActivity.this, VotePreviewActivity.class);
+                                    intent.putExtra("currentUser", currentUser);
+                                    startActivityForResult(intent, 1001);
+                                }
+                            });
+                            textView.setLayoutParams(lp);
+                            container.addView(textView);
                             Log.d("loadVote", document.getId() + " => " + document.getData());
-                            break;
                         }
-                        vote_vs.setText(title);
-                    } else {
-                        vote_vs.setText("");
                     }
                 }
             });
-        } else {
-            vote_vs.setText("");
         }
-    }
-
-    public void join(View view) {
-        currentUser.setJoiningVoteTitle(vote_vs.getText().toString());
-        final Intent intent = new Intent(this, VotePreviewActivity.class);
-        intent.putExtra("currentUser", currentUser);
-        startActivityForResult(intent, 1001);
     }
 }

@@ -33,4 +33,5 @@
     <string name="schedule">투표 일정</string>
     <string name="delete">투표 삭제</string>
     <string name="total">집계</string>
+    <string name="search">검색...</string>
 </resources>
