@@ -54,13 +54,10 @@ public class VoteManageActivity extends AppCompatActivity {
         title_vm = findViewById(R.id.title_vm);
         subtitle_vm = findViewById(R.id.subtitle_vm);
         forsomeone_vm = findViewById(R.id.forsomeone_vm);
-        search_vm = findViewById(R.id.search_vm);
         searchfor_vm = findViewById(R.id.searchfor_vm);
-
-        loadData();
     }
 
-    public void update(QueryDocumentSnapshot document) {
+    public void update(DocumentSnapshot document) {
         if (document != null) {
             Map<String, Object> forsomeone = new HashMap<>();
             forsomeone = (Map) document.get("for");
@@ -69,7 +66,7 @@ public class VoteManageActivity extends AppCompatActivity {
             forsomeone_vm.setText(forsomeone.get("grade").toString() + "학년 " + forsomeone.get("clroom").toString() + "반");
         } else {
             diabuild.setTitle("투표 찾기 실패");
-            diabuild.setMessage("연 투표가 없거나 투표 찾기에 실패하였습니다.");
+            diabuild.setMessage("연 투표가 없거나 투표 찾기에 실패하였습니다.\n 어쩌면 자신이 연 투표가 아닐 지도 모릅니다.");
             diabuild.setPositiveButton("예", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -80,20 +77,23 @@ public class VoteManageActivity extends AppCompatActivity {
         }
     }
 
-    public void loadData() {
-        db.collection("votes").whereEqualTo("opener", currentUser.getEmail())
-                .get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+    public void loadData(View view) {
+        DocumentReference docRef = db.collection("votes").document(searchfor_vm.getText().toString());
+        currentUser.setJoiningVoteTitle(searchfor_vm.getText().toString());
+        docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
-            public void onComplete(@NonNull Task<QuerySnapshot> task) {
-                if (task.isSuccessful()) {
-                    for (QueryDocumentSnapshot document : task.getResult()) {
-                        Log.d("loadManageData", "Data => " + document.getData());
-                        currentUser.setJoiningVoteTitle((String) document.get("title"));
-                        update(document);
-                        break;
+            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                DocumentSnapshot document = task.getResult();
+                if (document != null) {
+                    try {
+                        if (document.get("opener").equals(currentUser.getEmail())) {
+                            update(document);
+                        } else update(null);
+                    } catch(Exception e) {
+                        Log.e("loadVote", e.getMessage());
+                        update(null);
                     }
                 } else {
-                    Log.e("loadManageData", "Failed! " + task.getException());
                     update(null);
                 }
             }
@@ -114,12 +114,10 @@ public class VoteManageActivity extends AppCompatActivity {
                 inputTitle[0] = editText.getText().toString();
                 if (inputTitle[0].equals(title)) {
                     docRef.delete();
-                    Toast myToast = Toast.makeText(getApplicationContext(), "삭제되었습니다.", Toast.LENGTH_SHORT);
-                    myToast.show();
+                    Toast.makeText(getApplicationContext(), "삭제되었습니다.", Toast.LENGTH_SHORT).show();
                     finish();
                 } else {
-                    Toast myToastFailure = Toast.makeText(getApplicationContext(), "제목이 틀렸습니다.", Toast.LENGTH_SHORT);
-                    myToastFailure.show();
+                    Toast.makeText(getApplicationContext(), "제목이 틀렸습니다.", Toast.LENGTH_SHORT).show();
                 }
             }
 
@@ -152,14 +150,14 @@ public class VoteManageActivity extends AppCompatActivity {
                     Map<String, Long> answer = (Map) documentSnapshot.get("answer");
                     Map<Long, Long> total = getTotal(answer.size(), Lists, answer);
                     List<String> displayTotal = new ArrayList<>();
-                    long percentage ;
+                    long percentage;
 
-                    if(answer.size() > 0) {
+                    if (answer.size() > 0) {
                         for (String key : Lists.keySet()) {
-                            if(total.get(Long.parseLong(key)) > 0) {
+                            if (total.get(Long.parseLong(key)) > 0) {
                                 percentage = total.get(Long.parseLong(key)) * 100 / answer.size();
                             } else percentage = 0;
-                            displayTotal.add(String.format("%d%s %s\n%s %d %s %s %d%s", Long.parseLong(key) + 1, "번 항목 :", Lists.get(key), "득표수 :", total.get(Long.parseLong(key)),",", "득표율 :", percentage, "%"));
+                            displayTotal.add(String.format("%d%s %s\n%s %d %s %s %d%s", Long.parseLong(key) + 1, "번 항목 :", Lists.get(key), "득표수 :", total.get(Long.parseLong(key)), ",", "득표율 :", percentage, "%"));
                         }
                         diabuildTotal.setTitle(currentUser.getJoiningVoteTitle());
                         final CharSequence[] items = displayTotal.toArray(new String[displayTotal.size()]);

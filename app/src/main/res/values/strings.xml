@@ -34,4 +34,5 @@
     <string name="delete">투표 삭제</string>
     <string name="total">집계</string>
     <string name="search">검색...</string>
+    <string name="dl">투표가 아직 불러와지지\n않았습니다. 절대 삭제나\n집계 버튼을 누르지 마십시오.</string>
 </resources>

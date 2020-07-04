@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.annotation.NonNull;
@@ -34,26 +33,11 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        EditText email_lg = (EditText) findViewById(R.id.email_lg);
-        EditText pw_lg = (EditText) findViewById(R.id.pw_lg);
-        Button button_lg = (Button) findViewById(R.id.button_lg);
-        Button register_lg = (Button) findViewById(R.id.register_lg);
-
-        String email;
-        String password;
-
-        Intent register = new Intent(this, RegisterActivity.class);
-        Intent login = new Intent(this, LoginActivity.class);
-        Intent menu = new Intent(this, MainMenuActivity.class);
-
-        final String TAG = "loginWithEmail";
-
         mAuth = FirebaseAuth.getInstance();
     }
 
     public void onClick(View view) {
         final AlertDialog.Builder diabuild = new AlertDialog.Builder(this);
-        final pubMethods pm = new pubMethods();
         final FirebaseFirestore db = FirebaseFirestore.getInstance();
 
         EditText email_lg = findViewById(R.id.email_lg);
@@ -75,7 +59,6 @@ public class LoginActivity extends AppCompatActivity {
                                 // Sign in success, update UI with the signed-in user's information
                                 FirebaseUser user = mAuth.getCurrentUser();
                                 if (user.isEmailVerified()) {
-//                                    pm.updateUI(user);
                                     final String email = user.getEmail();
                                     final String TAG = "updateUI";
                                     final DocumentReference docRef = db.collection("users").document(email);
