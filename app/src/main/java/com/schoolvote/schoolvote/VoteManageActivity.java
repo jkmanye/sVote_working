@@ -98,6 +98,7 @@ public class VoteManageActivity extends AppCompatActivity {
                 }
             }
         });
+        searchfor_vm.setText("");
     }
 
     public void onClick(View view) {
