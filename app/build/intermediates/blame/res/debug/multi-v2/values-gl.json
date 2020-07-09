@@ -4,6 +4,23 @@
             "outputFile": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml",
             "map": [
                 {
+                    "source": "/Users/chu/.gradle/caches/transforms-2/files-2.1/2ffbbd38f71d2fab93a7a089e11e5ae5/jetified-play-services-basement-17.2.1/res/values-gl/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "192",
+                        "endOffsets": "439"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4036",
+                        "endColumns": "192",
+                        "endOffsets": "4224"
+                    }
+                },
+                {
                     "source": "/Users/chu/.gradle/caches/transforms-2/files-2.1/78b13228d1b7806e4595749364e08dfc/jetified-play-services-base-17.1.0/res/values-gl/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -21,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "/Users/chu/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/res/values-gl/values.xml",
+                    "source": "/Users/chu/.gradle/caches/transforms-2/files-2.1/6d79eadb82c8d6fd49530c3687aa44a6/core-1.2.0/res/values-gl/values-gl.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "192",
-                        "endOffsets": "439"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "37",
+                        "startLines": "49",
                         "startColumns": "4",
-                        "startOffsets": "4036",
-                        "endColumns": "192",
-                        "endOffsets": "4224"
+                        "startOffsets": "5810",
+                        "endColumns": "100",
+                        "endOffsets": "5906"
                     }
                 },
                 {
@@ -69,23 +86,6 @@
                         "startOffsets": "5623",
                         "endColumns": "104",
                         "endOffsets": "5723"
-                    }
-                },
-                {
-                    "source": "/Users/chu/.gradle/caches/transforms-2/files-2.1/b2b51ad2129f7ae88186ad90508b79ab/core-1.1.0/res/values-gl/values-gl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "49",
-                        "startColumns": "4",
-                        "startOffsets": "5810",
-                        "endColumns": "100",
-                        "endOffsets": "5906"
                     }
                 }
             ]

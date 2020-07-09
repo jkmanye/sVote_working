@@ -72,6 +72,10 @@
         "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/debug/layout_activity_reauthenticating.xml.flat",
+        "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/layout/activity_reauthenticating.xml"
+    },
+    {
         "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },

@@ -105,7 +105,8 @@
         android:layout_marginBottom="48dp"
         android:text="@string/ci"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="reauthenticate" />
 
     <Button
         android:id="@+id/goback_ai"
