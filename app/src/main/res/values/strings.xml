@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">sVote</string>
+    <string name="app_name">sVote\n스쿨보트</string>
 
     <string name="id">아이디</string>
     <string name="pw">비밀번호</string>
@@ -35,4 +35,5 @@
     <string name="total">집계</string>
     <string name="search">검색...</string>
     <string name="dl">투표가 아직 불러와지지\n않았습니다. 절대 삭제나\n집계 버튼을 누르지 마십시오.</string>
+    <string name="funtotal">+흥미진진 집계</string>
 </resources>

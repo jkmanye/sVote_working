@@ -908,6 +908,7 @@ id fill_horizontal
 id fill_vertical
 id forever
 id forsomeone_vm
+id funTotal_vm
 id goback_ai
 id goback_ra
 id goback_reg
@@ -1201,6 +1202,7 @@ string expires
 string fcm_fallback_notification_channel_label
 string firebase_database_url
 string forsomeone
+string funtotal
 string gcm_defaultSenderId
 string gh
 string goback

@@ -16,6 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.common.collect.Lists;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
@@ -27,6 +28,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 
 public class VoteManageActivity extends AppCompatActivity {
 
@@ -37,12 +39,15 @@ public class VoteManageActivity extends AppCompatActivity {
     TextView subtitle_vm;
     TextView forsomeone_vm;
     EditText searchfor_vm;
-    Button search_vm;
 
     AlertDialog.Builder diabuild;
     AlertDialog.Builder diabuildTotal;
+    AlertDialog.Builder diabuildFunTotal;
     Intent menu = new Intent(this, MainMenuActivity.class);
     User currentUser;
+
+    Map<String, String> Lists = new HashMap<>();
+    Map<String, Long> answer = new HashMap<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +55,7 @@ public class VoteManageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_vote_manage);
         diabuild = new AlertDialog.Builder(this);
         diabuildTotal = new AlertDialog.Builder(this);
+        diabuildFunTotal = new AlertDialog.Builder(this);
         currentUser = (User) getIntent().getSerializableExtra("currentUser");
         title_vm = findViewById(R.id.title_vm);
         subtitle_vm = findViewById(R.id.subtitle_vm);
@@ -126,7 +132,7 @@ public class VoteManageActivity extends AppCompatActivity {
         diabuild.show();
     }
 
-    public Map<Long, Long> getTotal(int all, Map<String, String> Lists, Map<String, Long> answer) {
+    public Map<Long, Long> getTotal(Map<String, String> Lists, Map<String, Long> answer) {
         Map<Long, Long> total = new HashMap<>();
         for (String key : Lists.keySet()) {
             total.put(Long.parseLong(key), 0L);
@@ -147,9 +153,9 @@ public class VoteManageActivity extends AppCompatActivity {
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
                 if (task.isSuccessful()) {
                     DocumentSnapshot documentSnapshot = task.getResult();
-                    Map<String, String> Lists = (Map) documentSnapshot.get("Lists");
-                    Map<String, Long> answer = (Map) documentSnapshot.get("answer");
-                    Map<Long, Long> total = getTotal(answer.size(), Lists, answer);
+                    Lists = (Map) documentSnapshot.get("Lists");
+                    answer = (Map) documentSnapshot.get("answer");
+                    Map<Long, Long> total = getTotal(Lists, answer);
                     List<String> displayTotal = new ArrayList<>();
                     long percentage;
 
@@ -178,5 +184,44 @@ public class VoteManageActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    public void funTotal(View view) {
+        Map<Long, Long> counter = new HashMap<>();
+        for (String key : Lists.keySet()) {
+            counter.put(Long.parseLong(key), 0L);
+        }
+
+        for (Long value : answer.values()) {
+            if (counter.containsKey(value)) {
+                counter.put(value, counter.get(value) + 1L);
+            }
+        }
+
+        int i = 0;
+        int randNum = -1;
+
+        while(i <= answer.size()) {
+            i += 1;
+            diabuildFunTotal.setTitle(Integer.toString(i));
+            Random random = new Random();
+            while(randNum < 0 || randNum > counter.size() - 1 || counter.get(randNum) <= 0) {
+                randNum = random.nextInt(answer.size());
+            }
+            diabuildFunTotal.setMessage(Integer.toString(randNum));
+            counter.put(Long.parseLong(Integer.toString(randNum)), counter.get(Integer.toString(randNum)) - 1);
+
+            diabuildFunTotal.setPositiveButton("다음", null);
+            diabuildFunTotal.show();
+        }
+        diabuildFunTotal.setTitle("끝");
+        diabuildFunTotal.setMessage("집계가 모두 끝났습니다.");
+        diabuildFunTotal.setPositiveButton("네", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                finish();
+            }
+        });
+        diabuildFunTotal.show();
     }
 }
