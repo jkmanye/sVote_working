@@ -4,23 +4,6 @@
             "outputFile": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/chu/.gradle/caches/transforms-2/files-2.1/4ace624982c43a943c6ffac79c9e5155/jetified-firebase-inappmessaging-display-19.0.7/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,131,203,276",
-                        "endColumns": "75,71,72,71",
-                        "endOffsets": "126,198,271,343"
-                    },
-                    "to": {
-                        "startLines": "5,6,7,8",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "264,340,412,485",
-                        "endColumns": "75,71,72,71",
-                        "endOffsets": "335,407,480,552"
-                    }
-                },
-                {
                     "source": "/Users/chu/.gradle/caches/transforms-2/files-2.1/95c27f1e561f59170f577bf124144243/appcompat-1.1.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",

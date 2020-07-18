@@ -56,7 +56,6 @@ public class LoginActivity extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
-                                // Sign in success, update UI with the signed-in user's information
                                 FirebaseUser user = mAuth.getCurrentUser();
                                 if (user.isEmailVerified()) {
                                     final String email = user.getEmail();
@@ -75,7 +74,7 @@ public class LoginActivity extends AppCompatActivity {
                                                     currentUser.setClroom_update((long) document.get("clroom"));
                                                     currentUser.setNumber_update((long) document.get("number"));
                                                     currentUser.setAdmin((boolean) document.get("isAdmin"));
-
+                                                    currentUser.setFeedback((long) document.get("feedback"));
                                                     Log.d(TAG, "signInWithEmail:success");
                                                     diabuild.setTitle("로그인 성공");
                                                     diabuild.setMessage("로그인에 성공하였습니다.");

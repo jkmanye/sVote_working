@@ -70,7 +70,7 @@ public class RegisterActivity extends AppCompatActivity {
             userdata.put("clroom", clroom);
             userdata.put("number", number);
             userdata.put("isAdmin", isAdmin);
-            userdata.put("openedVote", openedVote);
+            userdata.put("feedback", 0);
         } else {
             diabuild.setTitle("회원가입 실패");
             diabuild.setMessage("학년, 반, 번호에는 반드시 숫자만 입력해주세요!");

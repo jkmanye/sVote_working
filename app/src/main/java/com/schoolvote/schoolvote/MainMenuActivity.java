@@ -48,4 +48,20 @@ public class MainMenuActivity extends AppCompatActivity {
         }
         startActivityForResult(vg, 1001);
     }
+
+    public void fb(View view) {
+        final Intent fb = new Intent(this, FeedbackActivity.class);
+        if (currentUser != null) {
+            fb.putExtra("currentUser", currentUser);
+        }
+        startActivityForResult(fb, 1001);
+    }
+
+    public void sd(View view) {
+        final Intent sd = new Intent(this, TalkActivity.class);
+        if (currentUser != null) {
+            sd.putExtra("currentUser", currentUser);
+        }
+        startActivityForResult(sd, 1001);
+    }
 }

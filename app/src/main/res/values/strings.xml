@@ -36,4 +36,7 @@
     <string name="search">검색...</string>
     <string name="dl">투표가 아직 불러와지지\n않았습니다. 절대 삭제나\n집계 버튼을 누르지 마십시오.</string>
     <string name="funtotal">+흥미진진 집계</string>
+    <string name="feed">피드백</string>
+    <string name="suda">우리들의 수다방</string>
+    <string name="feedhint">여기에 피드백을 남겨주세요...</string>
 </resources>

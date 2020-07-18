@@ -9,7 +9,9 @@
         android:roundIcon="@drawable/svotelogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ReauthenticatingActivity"></activity>
+        <activity android:name=".TalkActivity"></activity>
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".ReauthenticatingActivity" />
 
         <service
             android:name=".FirebaseInstanceIDService"

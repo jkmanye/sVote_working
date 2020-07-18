@@ -205,7 +205,7 @@ public class VoteManageActivity extends AppCompatActivity {
             i += 1;
             diabuildFunTotal.setTitle(Integer.toString(i));
             Random random = new Random();
-            while(randNum < 0 || randNum > counter.size() - 1 || counter.get(randNum) <= 0) {
+            while(counter.get(randNum) <= 0) {
                 randNum = random.nextInt(answer.size());
             }
             diabuildFunTotal.setMessage(Integer.toString(randNum));

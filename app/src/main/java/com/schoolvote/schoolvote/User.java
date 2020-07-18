@@ -8,6 +8,7 @@ public class User implements Serializable {
     private long clroom_update;
     private long number_update;
     private boolean isAdmin;
+    private long feedback;
     private String joiningVoteTitle;
 
     public void setEmail(String email) {
@@ -32,6 +33,8 @@ public class User implements Serializable {
 
     public void setJoiningVoteTitle(String joiningVoteTitle) { this.joiningVoteTitle = joiningVoteTitle; }
 
+    public void setFeedback(Long feedback) { this.feedback = feedback; }
+
     public String getEmail() { return email; }
 
     public long getGrade_update() { return grade_update; }
@@ -43,4 +46,6 @@ public class User implements Serializable {
     public boolean isAdmin() { return isAdmin; }
 
     public String getJoiningVoteTitle() { return joiningVoteTitle; }
+
+    public long getFeedback() { return feedback; }
 }
