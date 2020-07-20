@@ -57,11 +57,19 @@ public class MainMenuActivity extends AppCompatActivity {
         startActivityForResult(fb, 1001);
     }
 
-    public void sd(View view) {
-        final Intent sd = new Intent(this, TalkActivity.class);
+    public void gm(View view) {
+        final Intent gm = new Intent(this, MeetingGeneratingActivity.class);
         if (currentUser != null) {
-            sd.putExtra("currentUser", currentUser);
+            gm.putExtra("currentUser", currentUser);
         }
-        startActivityForResult(sd, 1001);
+        startActivityForResult(gm, 1001);
+    }
+
+    public void ms(View view) {
+        final Intent ms = new Intent(this, MeetingScheduleActivity.class);
+        if (currentUser != null) {
+            ms.putExtra("currentUser", currentUser);
+        }
+        startActivityForResult(ms, 1001);
     }
 }

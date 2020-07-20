@@ -92,8 +92,8 @@
 
     <Button
         android:id="@+id/button_vg"
-        android:layout_width="64dp"
-        android:layout_height="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="64dp"
         android:layout_marginRight="64dp"
         android:layout_marginEnd="64dp"
@@ -101,13 +101,12 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:text="@string/push"
-        android:textSize="11dp"
         android:onClick="onClick" />
 
     <Button
         android:id="@+id/goback_vg"
-        android:layout_width="64dp"
-        android:layout_height="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="64dp"
         android:layout_marginLeft="64dp"
         android:layout_marginStart="64dp"
@@ -115,7 +114,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:text="@string/goback"
-        android:textSize="10dp"
         android:onClick="menu" />
 
     <TextView
@@ -129,7 +127,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:text="@string/classroom"/>
-    
+
     <EditText
         android:id="@+id/clroom_vg"
         android:layout_width="32dp"
@@ -162,7 +160,7 @@
         app:layout_constraintTop_toBottomOf="@id/pushbtn_vg"
         app:layout_constraintRight_toLeftOf="@id/textView4"
         app:layout_constraintEnd_toStartOf="@id/textView4"/>
-    
+
     <TextView
         android:layout_width="96dp"
         android:layout_height="32dp"
@@ -173,5 +171,5 @@
         app:layout_constraintRight_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:text="@string/forsomeone" />
-    
+
 </androidx.constraintlayout.widget.ConstraintLayout>

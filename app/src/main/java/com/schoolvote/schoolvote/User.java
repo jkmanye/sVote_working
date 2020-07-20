@@ -3,6 +3,7 @@ package com.schoolvote.schoolvote;
 import java.io.Serializable;
 
 public class User implements Serializable {
+
     private String email;
     private long grade_update;
     private long clroom_update;
@@ -10,6 +11,7 @@ public class User implements Serializable {
     private boolean isAdmin;
     private long feedback;
     private String joiningVoteTitle;
+    private String joiningMeetingTitle;
 
     public void setEmail(String email) {
         this.email = email;
@@ -37,6 +39,8 @@ public class User implements Serializable {
 
     public String getEmail() { return email; }
 
+    public void setJoiningMeetingTitle(String joiningMeetingTitle) { this.joiningMeetingTitle = joiningMeetingTitle; }
+
     public long getGrade_update() { return grade_update; }
 
     public long getClroom_update() { return clroom_update; }
@@ -48,4 +52,6 @@ public class User implements Serializable {
     public String getJoiningVoteTitle() { return joiningVoteTitle; }
 
     public long getFeedback() { return feedback; }
+
+    public String getJoiningMeetingTitle() { return joiningMeetingTitle; }
 }

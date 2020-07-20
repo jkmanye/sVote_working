@@ -73,16 +73,42 @@
         app:layout_constraintStart_toStartOf="parent"/>
 
     <Button
-        android:id="@+id/suda_mm"
+        android:id="@+id/hs_mm"
         android:layout_width="96dp"
         android:layout_height="96dp"
         android:layout_marginEnd="64dp"
         android:layout_marginRight="64dp"
         android:layout_marginBottom="32dp"
         android:background="@color/colorLightGray"
-        android:onClick="vm"
+        android:onClick="ms"
         android:text="@string/suda"
         app:layout_constraintBottom_toTopOf="@id/gv_mm"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/gh_mm"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorLightGray"
+        android:onClick="gm"
+        android:text="@string/gho"
+        app:layout_constraintBottom_toTopOf="@id/hs_mm"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/mh_mm"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorLightGray"
+        android:onClick="vm"
+        android:text="@string/mh"
+        app:layout_constraintBottom_toTopOf="@id/hs_mm"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

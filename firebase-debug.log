@@ -1,0 +1,138 @@
+[debug] [2020-07-19T00:41:18.036Z] ----------------------------------------------------------------------
+[debug] [2020-07-19T00:41:18.039Z] Command:       /usr/local/bin/firebase /Users/chu/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase emulators:start
+[debug] [2020-07-19T00:41:18.039Z] CLI Version:   8.4.3
+[debug] [2020-07-19T00:41:18.039Z] Platform:      darwin
+[debug] [2020-07-19T00:41:18.039Z] Node Version:  v12.16.1
+[debug] [2020-07-19T00:41:18.041Z] Time:          Sun Jul 19 2020 09:41:18 GMT+0900 (Korean Standard Time)
+[debug] [2020-07-19T00:41:18.041Z] ----------------------------------------------------------------------
+[debug] [2020-07-19T00:41:18.041Z] 
+[debug] [2020-07-19T00:41:18.053Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-07-19T00:41:18.053Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions, firestore {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, firestore"}}
+[debug] [2020-07-19T00:41:18.101Z] [hub] writing locator at /var/folders/nn/971myttn7gx59zl2p7w67dn00000gn/T/hub-svote-234d1.json
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"8\" doesn't match your global version \"12\""}}
+[debug] [2020-07-19T00:41:18.397Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2020-07-19T00:41:18.397Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2020-07-19T00:41:18.398Z] Starting Firestore Emulator with command {"binary":"java","args":["-Duser.language=en","-jar","/Users/chu/.cache/firebase/emulators/cloud-firestore-emulator-v1.11.4.jar","--host","localhost","--port",8080,"--rules","/Users/chu/firestore.rules","--functions_emulator","localhost:5001"],"optionalArgs":["port","webchannel_port","host","rules","functions_emulator","seed_from_export"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Duser.language=en\",\"-jar\",\"/Users/chu/.cache/firebase/emulators/cloud-firestore-emulator-v1.11.4.jar\",\"--host\",\"localhost\",\"--port\",8080,\"--rules\",\"/Users/chu/firestore.rules\",\"--functions_emulator\",\"localhost:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"functions_emulator\",\"seed_from_export\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[debug] [2020-07-19T00:41:26.061Z] API endpoint: http://localhost {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://localhost"}}
+[debug] [2020-07-19T00:41:26.061Z] :8080
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=localhost:8080
+
+Dev App Server is now running.
+
+ {"metadata":{"emulator":{"name":"firestore"},"message":":8080\nIf you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:\n\n   export FIRESTORE_EMULATOR_HOST=localhost:8080\n\nDev App Server is now running.\n\n"}}
+[debug] [2020-07-19T00:41:26.310Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2020-07-19T00:41:26.310Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2020-07-19T00:41:26.311Z] Starting Emulator UI with command {"binary":"node","args":["/Users/chu/.cache/firebase/emulators/ui-v1.1.0/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/chu/.cache/firebase/emulators/ui-v1.1.0/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2020-07-19T00:41:26.593Z] Web / API server started at http://localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at http://localhost:4000\n"}}
+[info] i  functions: Watching "/Users/chu/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/chu/functions\" for Cloud Functions..."}}
+[debug] [2020-07-19T00:41:26.845Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2020-07-19T00:41:26.846Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=1"}}
+[debug] [2020-07-19T00:41:26.846Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2020-07-19T00:41:26.847Z] [worker-~diagnostic~-e6ae92c4-817c-4b64-9606-a6e3eb4cf75a]: Assigning socketPath: /var/folders/nn/971myttn7gx59zl2p7w67dn00000gn/T/fire_emu_12070.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-e6ae92c4-817c-4b64-9606-a6e3eb4cf75a]: Assigning socketPath: /var/folders/nn/971myttn7gx59zl2p7w67dn00000gn/T/fire_emu_12070.sock"}}
+[debug] [2020-07-19T00:41:26.848Z] [worker-~diagnostic~-e6ae92c4-817c-4b64-9606-a6e3eb4cf75a]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-e6ae92c4-817c-4b64-9606-a6e3eb4cf75a]: BUSY"}}
+[debug] [2020-07-19T00:41:27.382Z] [runtime-status] [12070] Functions runtime initialized. {"cwd":"/Users/chu/functions","node_version":"12.16.1"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [12070] Functions runtime initialized. {\"cwd\":\"/Users/chu/functions\",\"node_version\":\"12.16.1\"}"}}
+[debug] [2020-07-19T00:41:27.383Z] [runtime-status] [12070] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [12070] Disabled runtime features: undefined"}}
+[debug] [2020-07-19T00:41:27.389Z] [runtime-status] [12070] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/chu/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [12070] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"8.13.0\",\"resolution\":\"/Users/chu/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2020-07-19T00:41:27.391Z] [runtime-status] [12070] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"/Users/chu/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [12070] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.7.0\",\"resolution\":\"/Users/chu/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-07-19T00:41:27.393Z] [runtime-status] [12070] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [12070] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2020-07-19T00:41:27.394Z] [runtime-status] [12070] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"/Users/chu/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [12070] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.7.0\",\"resolution\":\"/Users/chu/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-07-19T00:41:27.470Z] [runtime-status] [12070] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [12070] Checked functions.config() {\"config\":{}}"}}
+[debug] [2020-07-19T00:41:27.470Z] [runtime-status] [12070] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.7.0","resolution":"/Users/chu/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [12070] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.7.0\",\"resolution\":\"/Users/chu/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2020-07-19T00:41:27.471Z] [runtime-status] [12070] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"/Users/chu/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [12070] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.7.0\",\"resolution\":\"/Users/chu/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-07-19T00:41:27.472Z] [runtime-status] [12070] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/chu/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [12070] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"8.13.0\",\"resolution\":\"/Users/chu/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2020-07-19T00:41:27.472Z] [runtime-status] [12070] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"/Users/chu/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [12070] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.7.0\",\"resolution\":\"/Users/chu/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-07-19T00:41:27.473Z] [runtime-status] [12070] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/chu/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [12070] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"8.13.0\",\"resolution\":\"/Users/chu/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[info] 
+┌───────────────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! View status and logs at http://localhost:4000 │
+└───────────────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Firestore │ localhost:8080 │ http://localhost:4000/firestore │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Other reserved ports: 4400, 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2020-07-19T00:41:27.479Z] [worker-~diagnostic~-e6ae92c4-817c-4b64-9606-a6e3eb4cf75a]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-e6ae92c4-817c-4b64-9606-a6e3eb4cf75a]: IDLE"}}
+[debug] [2020-07-19T00:41:42.810Z] Jul 19, 2020 9:41:42 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 9:41:42 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-07-19T00:41:43.237Z] Jul 19, 2020 9:41:43 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 9:41:43 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected HTTP/2 connection.\n"}}
+[debug] [2020-07-19T00:42:17.085Z] Jul 19, 2020 9:42:17 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 9:42:17 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-07-19T00:42:17.294Z] Jul 19, 2020 9:42:17 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 9:42:17 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-07-19T00:42:17.327Z] Jul 19, 2020 9:42:17 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 9:42:17 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-07-19T00:42:17.656Z] Jul 19, 2020 9:42:17 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 9:42:17 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-07-19T00:42:17.843Z] Jul 19, 2020 9:42:17 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 9:42:17 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-07-19T00:42:17.911Z] Jul 19, 2020 9:42:17 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 9:42:17 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-07-19T00:42:38.486Z] Jul 19, 2020 9:42:38 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 9:42:38 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-07-19T00:42:38.557Z] Jul 19, 2020 9:42:38 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 9:42:38 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-07-19T00:42:40.899Z] Jul 19, 2020 9:42:40 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Jul 19, 2020 9:42:40 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 9:42:40 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nJul 19, 2020 9:42:40 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-07-19T00:42:40.933Z] Jul 19, 2020 9:42:40 AM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreWriteHandler onClose
+INFO: channel closed
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 9:42:40 AM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreWriteHandler onClose\nINFO: channel closed\n"}}
+[debug] [2020-07-19T00:42:40.934Z] Jul 19, 2020 9:42:40 AM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreListenHandler onClose
+INFO: channel closed
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 9:42:40 AM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreListenHandler onClose\nINFO: channel closed\n"}}
+[debug] [2020-07-19T00:43:12.749Z] Jul 19, 2020 9:43:12 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 9:43:12 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-07-19T06:25:45.908Z] Jul 19, 2020 3:25:45 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 3:25:45 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-07-19T06:25:45.922Z] Jul 19, 2020 3:25:45 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 3:25:45 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected HTTP/2 connection.\n"}}
+[debug] [2020-07-19T06:36:16.815Z] Jul 19, 2020 3:36:16 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 3:36:16 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-07-19T06:36:51.425Z] Jul 19, 2020 3:36:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 3:36:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-07-19T06:36:51.444Z] Jul 19, 2020 3:36:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 3:36:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-07-19T06:36:51.458Z] Jul 19, 2020 3:36:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 3:36:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-07-19T06:36:51.608Z] Jul 19, 2020 3:36:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 3:36:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-07-19T06:36:51.640Z] Jul 19, 2020 3:36:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 3:36:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-07-19T06:36:51.707Z] Jul 19, 2020 3:36:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jul 19, 2020 3:36:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}

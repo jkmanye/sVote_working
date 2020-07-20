@@ -9,7 +9,10 @@
         android:roundIcon="@drawable/svotelogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TalkActivity"></activity>
+        <activity android:name=".MeetingPreviewActivity"></activity>
+        <activity android:name=".MeetingScheduleActivity" />
+        <activity android:name=".MeetingGeneratingActivity" />
+        <activity android:name=".TalkActivity" />
         <activity android:name=".FeedbackActivity" />
         <activity android:name=".ReauthenticatingActivity" />
 
