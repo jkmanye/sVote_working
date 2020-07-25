@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:text="@string/msch"
+        android:text="@string/suda"
         android:textSize="60sp" />
 
     <CalendarView

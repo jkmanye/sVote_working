@@ -59,13 +59,13 @@ public class RegisterActivity extends AppCompatActivity {
         final String password = pw_reg.getText().toString();
         final int grade;
         final int clroom;
-        final int number;
+        final String number;
         final boolean isAdmin = false;
         final int openedVote = 0;
-        if (pm.isNumeric(grade_reg.getText().toString()) && pm.isNumeric(clroom_reg.getText().toString()) && pm.isNumeric(grade_reg.getText().toString())) {
+        if (pm.isNumeric(grade_reg.getText().toString()) && pm.isNumeric(clroom_reg.getText().toString())) {
             grade = Integer.parseInt(grade_reg.getText().toString());
             clroom = Integer.parseInt(clroom_reg.getText().toString());
-            number = Integer.parseInt(number_reg.getText().toString());
+            number = number_reg.getText().toString();
             userdata.put("grade", grade);
             userdata.put("clroom", clroom);
             userdata.put("number", number);

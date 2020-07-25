@@ -27,7 +27,7 @@ public class AccountInfoActivity extends AppCompatActivity {
         final TextView clroom_ai = findViewById(R.id.clroom_ai);
         clroom_ai.setText(Long.toString(currentUser.getClroom_update()));
         final TextView number_ai = findViewById(R.id.number_ai);
-        number_ai.setText(Long.toString(currentUser.getNumber_update()));
+        number_ai.setText(currentUser.getNumber_update());
     }
 
     public void reauthenticate(View view) {
@@ -38,9 +38,5 @@ public class AccountInfoActivity extends AppCompatActivity {
 
     public void goback(View view) {
         finish();
-    }
-
-    public void logout(View view) {
-        FirebaseAuth.getInstance().signOut();
     }
 }

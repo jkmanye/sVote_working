@@ -724,6 +724,7 @@ drawable tooltip_frame_light
 id ALT
 id CTRL
 id FUNCTION
+id LinearLayout1
 id META
 id SHIFT
 id SYM
@@ -795,6 +796,7 @@ id buttonPanel
 id button_ai
 id button_lg
 id button_mg
+id button_mp
 id button_ra
 id button_reg
 id button_vg
@@ -803,6 +805,7 @@ id calendar_ms
 id calender_vs
 id center_vertical
 id chains
+id chat_t
 id checkbox
 id checked
 id chronometer
@@ -839,6 +842,7 @@ id funTotal_vm
 id gh_mm
 id goback_ai
 id goback_mg
+id goback_mp
 id goback_ra
 id goback_reg
 id goback_vg
@@ -862,6 +866,7 @@ id ifRoom
 id image
 id imageView
 id info
+id info_mp
 id info_vp
 id invisible
 id italic
@@ -894,6 +899,7 @@ id parentPanel
 id percent
 id progress_circular
 id progress_horizontal
+id push_t
 id push_vg
 id pushbtn_vg
 id pw_lg
@@ -922,6 +928,7 @@ id search_vm
 id search_voice_btn
 id searchfor_vm
 id select_dialog_listview
+id send_t
 id shortcut
 id showCustom
 id showHome
@@ -968,6 +975,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_mg
+id title_mp
 id title_template
 id title_vg
 id title_vm

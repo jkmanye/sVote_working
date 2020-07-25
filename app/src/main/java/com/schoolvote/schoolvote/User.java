@@ -7,7 +7,7 @@ public class User implements Serializable {
     private String email;
     private long grade_update;
     private long clroom_update;
-    private long number_update;
+    private String number_update;
     private boolean isAdmin;
     private long feedback;
     private String joiningVoteTitle;
@@ -25,7 +25,7 @@ public class User implements Serializable {
         this.clroom_update = clroom_update;
     }
 
-    public void setNumber_update(long number_update) {
+    public void setNumber_update(String number_update) {
         this.number_update = number_update;
     }
 
@@ -45,7 +45,7 @@ public class User implements Serializable {
 
     public long getClroom_update() { return clroom_update; }
 
-    public long getNumber_update() { return number_update; }
+    public String getNumber_update() { return number_update; }
 
     public boolean isAdmin() { return isAdmin; }
 

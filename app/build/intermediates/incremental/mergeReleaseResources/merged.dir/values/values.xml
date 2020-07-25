@@ -453,6 +453,7 @@
     <string name="funtotal">+흥미진진 집계</string>
     <string name="gcm_defaultSenderId" translatable="false">394407981186</string>
     <string name="gh">4</string>
+    <string name="gho">회의 만들기</string>
     <string name="goback">돌아가기</string>
     <string name="google_api_key" translatable="false">AIzaSyDJlAt7StgZdIISZWcoo7ZfKYhkOo-MnvY</string>
     <string name="google_app_id" translatable="false">1:394407981186:android:5cca1f001819fe4449449b</string>
@@ -468,19 +469,21 @@
     <string name="mail">이메일</string>
     <string name="makevote">투표 만들기</string>
     <string name="managevote">투표 관리</string>
-    <string name="nuh">9</string>
+    <string name="mh">회의 관리</string>
+    <string name="msch">회의 일정</string>
+    <string name="nuh">홍길동</string>
     <string name="project_id" translatable="false">svote-234d1</string>
     <string name="push">등록</string>
     <string name="pw">비밀번호</string>
     <string name="register">회원가입</string>
     <string name="schedule">투표 일정</string>
     <string name="school">학교</string>
-    <string name="schoolnum">번호</string>
+    <string name="schoolnum">이름</string>
     <string name="search">검색...</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subtitle">상세 설명</string>
-    <string name="suda">우리들의 수다방</string>
+    <string name="suda">회의 일정</string>
     <string name="title">제목</string>
     <string name="total">집계</string>
     <string name="vs">투표 일정</string>

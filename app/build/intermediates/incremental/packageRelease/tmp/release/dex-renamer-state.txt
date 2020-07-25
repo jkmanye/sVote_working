@@ -1,7 +1,7 @@
-#Sun Jul 12 17:40:48 KST 2020
+#Sat Jul 25 13:13:35 KST 2020
 base.0=/Users/chu/Desktop/sVote4_working/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
 path.1=classes2.dex
-renamed.1=classes2.dex
+renamed.1=classes4.dex
 path.0=classes.dex
-renamed.0=classes.dex
+renamed.0=classes3.dex
 base.1=/Users/chu/Desktop/sVote4_working/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex

@@ -49,7 +49,6 @@ public class MeetingGeneratingActivity extends AppCompatActivity {
         forsomeone.put("grade", Long.parseLong(grade_mg.getText().toString()));
         forsomeone.put("clroom", Long.parseLong(clroom_mg.getText().toString()));
         meeting.put("for", forsomeone);
-        meeting.put("chatnum", 0);
 
         try {
             final String TAG = "addMeeting";
@@ -68,10 +67,9 @@ public class MeetingGeneratingActivity extends AppCompatActivity {
                         });
                         diabuild.show();
                         Map<String, Object> startUpMessage = new HashMap<>();
-                        Map<String, String> replies = new HashMap<>();
                         startUpMessage.put("message", "선생님께서 이 회의를 시작하셨어요.");
-                        startUpMessage.put("replies", replies);
                         startUpMessage.put("chatnum", 0);
+                        startUpMessage.put("writer", "관리자");
                         FirebaseFirestore.getInstance().collection("meetings").document(title_mg.getText().toString()).collection("chat").document("'관리자").set(startUpMessage).addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void aVoid) {

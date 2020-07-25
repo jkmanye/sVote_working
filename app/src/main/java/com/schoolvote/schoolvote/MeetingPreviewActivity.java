@@ -28,9 +28,9 @@ public class MeetingPreviewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_meeting_preview);
         currentUser = (User) getIntent().getSerializableExtra("currentUser");
 
-        title_mp = findViewById(R.id.title_mg);
+        title_mp = findViewById(R.id.title_mp);
         info_mp = findViewById(R.id.info_mp);
-        title_mp.setText(currentUser.getJoiningMeetingTitle());
+        title_mp.setText(getIntent().getStringExtra("title"));
         DocumentReference docRef = FirebaseFirestore.getInstance().collection("meetings").document(title_mp.getText().toString());
         docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
@@ -46,7 +46,7 @@ public class MeetingPreviewActivity extends AppCompatActivity {
         });
     }
 
-    public void finaljoin(View view) { Intent i = new Intent(this, TalkActivity.class); i.putExtra("currentUser", currentUser);  startActivityForResult(i, 1001); }
+    public void finaljoin(View view) { Intent i = new Intent(this, TalkActivity.class); i.putExtra("currentUser", currentUser);  i.putExtra("title", title_mp.getText().toString()); startActivityForResult(i, 1001); }
 
     public void goback(View view) { finish(); }
 }

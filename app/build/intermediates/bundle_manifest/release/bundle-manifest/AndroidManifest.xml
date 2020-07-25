@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.schoolvote.schoolvote"
     android:versionCode="1"
-    android:versionName="1.9" >
+    android:versionName="1.10" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -25,6 +25,10 @@
         android:roundIcon="@drawable/svotelogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.schoolvote.schoolvote.MeetingPreviewActivity" />
+        <activity android:name="com.schoolvote.schoolvote.MeetingScheduleActivity" />
+        <activity android:name="com.schoolvote.schoolvote.MeetingGeneratingActivity" />
+        <activity android:name="com.schoolvote.schoolvote.TalkActivity" />
         <activity android:name="com.schoolvote.schoolvote.FeedbackActivity" />
         <activity android:name="com.schoolvote.schoolvote.ReauthenticatingActivity" />
 
@@ -44,7 +48,13 @@
         <activity android:name="com.schoolvote.schoolvote.MainMenuActivity" />
         <activity android:name="com.schoolvote.schoolvote.VoteAlertDialogActivity" />
         <activity android:name="com.schoolvote.schoolvote.RegisterActivity" />
-        <activity android:name="com.schoolvote.schoolvote.LoginActivity" />
+        <activity android:name="com.schoolvote.schoolvote.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.schoolvote.schoolvote.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

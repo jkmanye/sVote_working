@@ -72,7 +72,7 @@ public class LoginActivity extends AppCompatActivity {
                                                     currentUser.setEmail(email);
                                                     currentUser.setGrade_update((long) document.get("grade"));
                                                     currentUser.setClroom_update((long) document.get("clroom"));
-                                                    currentUser.setNumber_update((long) document.get("number"));
+                                                    currentUser.setNumber_update((String) document.get("number"));
                                                     currentUser.setAdmin((boolean) document.get("isAdmin"));
                                                     currentUser.setFeedback((long) document.get("feedback"));
                                                     Log.d(TAG, "signInWithEmail:success");

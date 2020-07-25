@@ -65,15 +65,16 @@ public class MeetingScheduleActivity extends AppCompatActivity {
                                 @Override
                                 public void onClick(View view) {
                                     TextView v = (TextView)view;
-                                    currentUser.setJoiningVoteTitle(v.getText().toString());
+                                    currentUser.setJoiningMeetingTitle(v.getText().toString());
                                     final Intent intent = new Intent(MeetingScheduleActivity.this, MeetingPreviewActivity.class);
                                     intent.putExtra("currentUser", currentUser);
+                                    intent.putExtra("title", currentUser.getJoiningMeetingTitle());
                                     startActivityForResult(intent, 1001);
                                 }
                             });
                             textView.setLayoutParams(lp);
                             container.addView(textView);
-                            Log.d("loadVote", document.getId() + " => " + document.getData());
+                            Log.d("loadMeeting", document.getId() + " => " + document.getData());
                         }
                     }
                 }

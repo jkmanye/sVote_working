@@ -44,12 +44,20 @@
         "source": "/Users/chu/Desktop/sVote4_working/app/build/generated/res/pngs/release/drawable-xhdpi/ic_launcher_background.png"
     },
     {
+        "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/release/layout_activity_meeting_generating.xml.flat",
+        "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/layout/activity_meeting_generating.xml"
+    },
+    {
         "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/release/drawable-anydpi-v21_ic_launcher_background.xml.flat",
         "source": "/Users/chu/Desktop/sVote4_working/app/build/generated/res/pngs/release/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/release/layout_activity_talk.xml.flat",
+        "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/layout/activity_talk.xml"
     },
     {
         "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -78,6 +86,14 @@
     {
         "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_launcher_background.png.flat",
         "source": "/Users/chu/Desktop/sVote4_working/app/build/generated/res/pngs/release/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/release/layout_activity_meeting_preview.xml.flat",
+        "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/layout/activity_meeting_preview.xml"
+    },
+    {
+        "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/release/layout_activity_meeting_schedule.xml.flat",
+        "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/layout/activity_meeting_schedule.xml"
     },
     {
         "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/release/layout_activity_main_menu.xml.flat",
