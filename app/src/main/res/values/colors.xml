@@ -8,4 +8,6 @@
     <color name="black_overlay">#60000000</color>
     <color name="colorRed">#FF0000</color>
     <color name="colorWhite">#FFFFFF</color>
+    <color name="colorVote">#FFBD00</color>
+    <color name="colorbs">#00E1FF</color>
 </resources>

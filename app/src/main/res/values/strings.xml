@@ -19,7 +19,7 @@
     <string name="jv">투표 참여</string>
     <string name="goback">돌아가기</string>
     <string name="acc">나의 정보</string>
-    <string name="vs">투표 일정</string>
+    <string name="vs">진행중인 투표</string>
     <string name="ci">정보 수정</string>
     <string name="title">제목</string>
     <string name="subtitle">상세 설명</string>
@@ -30,16 +30,17 @@
     <string name="makevote">투표 만들기</string>
     <string name="managevote">투표 관리</string>
     <string name="forsomeone">대상</string>
-    <string name="schedule">투표 일정</string>
+    <string name="schedule">진행중인 투표</string>
     <string name="delete">투표 삭제</string>
     <string name="total">집계</string>
     <string name="search">검색...</string>
     <string name="dl">투표가 아직 불러와지지\n않았습니다. 절대 삭제나\n집계 버튼을 누르지 마십시오.</string>
-    <string name="funtotal">+흥미진진 집계</string>
-    <string name="feed">피드백</string>
-    <string name="suda">회의 일정</string>
+    <string name="feed">고객센터</string>
+    <string name="suda">생각 나누기</string>
     <string name="feedhint">여기에 피드백을 남겨주세요...</string>
-    <string name="gho">회의 만들기</string>
-    <string name="mh">회의 관리</string>
-    <string name="msch">회의 일정</string>
+    <string name="gho">생각 열기</string>
+    <string name="mh">생각 관리</string>
+    <string name="jmt">생각 나누기</string>
+    <string name="dm">회의 삭제</string>
+    <string name="dlm">회의가 아직 불러와지지\n않았습니다. 절대\n삭제 버튼을 누르지 마십시오.</string>
 </resources>

@@ -28,6 +28,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.schoolvote.schoolvote.MeetingManageActivity" />
         <activity android:name="com.schoolvote.schoolvote.MeetingPreviewActivity" />
         <activity android:name="com.schoolvote.schoolvote.MeetingScheduleActivity" />
         <activity android:name="com.schoolvote.schoolvote.MeetingGeneratingActivity" />

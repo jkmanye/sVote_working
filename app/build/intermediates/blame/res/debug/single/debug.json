@@ -56,6 +56,10 @@
         "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/layout/activity_meeting_schedule.xml"
     },
     {
+        "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/debug/layout_activity_meeting_manage.xml.flat",
+        "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/layout/activity_meeting_manage.xml"
+    },
+    {
         "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/debug/drawable-v24_sorryfordisconnecting.png.flat",
         "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/drawable-v24/sorryfordisconnecting.png"
     },

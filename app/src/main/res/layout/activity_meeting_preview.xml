@@ -23,7 +23,7 @@
         android:layout_marginEnd="64dp"
         android:layout_marginRight="64dp"
         android:layout_marginBottom="32dp"
-        android:text="@string/jv"
+        android:text="@string/jmt"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:onClick="finaljoin" />

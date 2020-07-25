@@ -49,56 +49,45 @@ public class MeetingGeneratingActivity extends AppCompatActivity {
         forsomeone.put("grade", Long.parseLong(grade_mg.getText().toString()));
         forsomeone.put("clroom", Long.parseLong(clroom_mg.getText().toString()));
         meeting.put("for", forsomeone);
+        meeting.put("chatnum", 1);
+        meeting.put("opener", currentUser.getEmail());
 
         try {
             final String TAG = "addMeeting";
-            if (currentUser.isAdmin()) {
-                FirebaseFirestore.getInstance().collection("meetings").document(title_mg.getText().toString()).set(meeting).addOnSuccessListener(new OnSuccessListener<Void>() {
-                    @Override
-                    public void onSuccess(Void aVoid) {
-                        Log.d(TAG, "Added meeting with title " + title_mg.getText().toString());
-                        diabuild.setTitle("");
-                        diabuild.setMessage("회의가 등록되었습니다.");
-                        diabuild.setPositiveButton("예", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                finish();
-                            }
-                        });
-                        diabuild.show();
-                        Map<String, Object> startUpMessage = new HashMap<>();
-                        startUpMessage.put("message", "선생님께서 이 회의를 시작하셨어요.");
-                        startUpMessage.put("chatnum", 0);
-                        startUpMessage.put("writer", "관리자");
-                        FirebaseFirestore.getInstance().collection("meetings").document(title_mg.getText().toString()).collection("chat").document("'관리자").set(startUpMessage).addOnSuccessListener(new OnSuccessListener<Void>() {
-                            @Override
-                            public void onSuccess(Void aVoid) {
-                                Log.d(TAG, "Starting message written.");
-                            }
-                        }).addOnFailureListener(new OnFailureListener() {
-                            @Override
-                            public void onFailure(@NonNull Exception e) {
-                                Log.e(TAG, "Error writing startup message.", e);
-                            }
-                        });
-                    }
-                }).addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
-                        Log.e(TAG, "Error adding meeting.", e);
-                    }
-                });
-            } else if (!currentUser.isAdmin()) {
-                diabuild.setTitle("");
-                diabuild.setMessage("관리자만 들어올 수 있어요!");
-                diabuild.setPositiveButton("예", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        finish();
-                    }
-                });
-                diabuild.show();
-            }
+            FirebaseFirestore.getInstance().collection("meetings").document(title_mg.getText().toString()).set(meeting).addOnSuccessListener(new OnSuccessListener<Void>() {
+                @Override
+                public void onSuccess(Void aVoid) {
+                    Log.d(TAG, "Added meeting with title " + title_mg.getText().toString());
+                    diabuild.setTitle("");
+                    diabuild.setMessage("회의가 등록되었습니다.");
+                    diabuild.setPositiveButton("예", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            finish();
+                        }
+                    });
+                    diabuild.show();
+                    Map<String, Object> startUpMessage = new HashMap<>();
+                    startUpMessage.put("message", "이 생각방이 시작되었어요. 다양한 상상을 마음껏 펼쳐보아요.");
+                    startUpMessage.put("writer", "관리자");
+                    FirebaseFirestore.getInstance().collection("meetings").document(title_mg.getText().toString()).collection("chat").document("'관리자").set(startUpMessage).addOnSuccessListener(new OnSuccessListener<Void>() {
+                        @Override
+                        public void onSuccess(Void aVoid) {
+                            Log.d(TAG, "Starting message written.");
+                        }
+                    }).addOnFailureListener(new OnFailureListener() {
+                        @Override
+                        public void onFailure(@NonNull Exception e) {
+                            Log.e(TAG, "Error writing startup message.", e);
+                        }
+                    });
+                }
+            }).addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception e) {
+                    Log.e(TAG, "Error adding meeting.", e);
+                }
+            });
         } catch (Exception e) {
             diabuild.setTitle("");
             diabuild.setMessage("유효하지 않은 값이 기입되었습니다.");

@@ -75,4 +75,12 @@ public class MainMenuActivity extends AppCompatActivity {
         }
         startActivityForResult(ms, 1001);
     }
+
+    public void mm(View view) {
+        final Intent mm = new Intent(this, MeetingManageActivity.class);
+        if(currentUser != null) {
+            mm.putExtra("currentUser", currentUser);
+        }
+        startActivityForResult(mm, 1001);
+    }
 }

@@ -412,7 +412,9 @@ color colorLightGray
 color colorPrimary
 color colorPrimaryDark
 color colorRed
+color colorVote
 color colorWhite
+color colorbs
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -822,6 +824,7 @@ id customPanel
 id dark
 id decor_content_parent
 id default_activity_button
+id delete_mm
 id delete_vm
 id dialog_button
 id dimensions
@@ -837,8 +840,8 @@ id expanded_menu
 id fdbk_mm
 id feed_fd
 id forever
+id forsomeone_mm
 id forsomeone_vm
-id funTotal_vm
 id gh_mm
 id goback_ai
 id goback_mg
@@ -922,10 +925,12 @@ id search_close_btn
 id search_edit_frame
 id search_go_btn
 id search_mag_icon
+id search_mm
 id search_plate
 id search_src_text
 id search_vm
 id search_voice_btn
+id searchfor_mm
 id searchfor_vm
 id select_dialog_listview
 id send_t
@@ -945,6 +950,7 @@ id start
 id submenuarrow
 id submit_area
 id subtitle_mg
+id subtitle_mm
 id subtitle_vg
 id subtitle_vm
 id tabMode
@@ -961,7 +967,6 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
-id textView01
 id textView1
 id textView2
 id textView3
@@ -971,10 +976,12 @@ id textView6
 id textView7
 id textView8
 id textView9
+id textView_ms
 id time
 id title
 id titleDividerNoCustom
 id title_mg
+id title_mm
 id title_mp
 id title_template
 id title_vg
@@ -1040,6 +1047,7 @@ layout activity_login
 layout activity_main
 layout activity_main_menu
 layout activity_meeting_generating
+layout activity_meeting_manage
 layout activity_meeting_preview
 layout activity_meeting_schedule
 layout activity_reauthenticating
@@ -1117,13 +1125,14 @@ string dayslater
 string default_web_client_id
 string delete
 string dl
+string dlm
+string dm
 string emh
 string expires
 string feed
 string feedhint
 string firebase_database_url
 string forsomeone
-string funtotal
 string gcm_defaultSenderId
 string gh
 string gho
@@ -1134,6 +1143,7 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string grade
 string id
+string jmt
 string jv
 string lists
 string login
@@ -1143,7 +1153,6 @@ string mail
 string makevote
 string managevote
 string mh
-string msch
 string nuh
 string project_id
 string push

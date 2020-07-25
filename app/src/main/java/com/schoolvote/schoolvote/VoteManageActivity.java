@@ -185,43 +185,4 @@ public class VoteManageActivity extends AppCompatActivity {
             }
         });
     }
-
-    public void funTotal(View view) {
-        Map<Long, Long> counter = new HashMap<>();
-        for (String key : Lists.keySet()) {
-            counter.put(Long.parseLong(key), 0L);
-        }
-
-        for (Long value : answer.values()) {
-            if (counter.containsKey(value)) {
-                counter.put(value, counter.get(value) + 1L);
-            }
-        }
-
-        int i = 0;
-        int randNum = -1;
-
-        while(i <= answer.size()) {
-            i += 1;
-            diabuildFunTotal.setTitle(Integer.toString(i));
-            Random random = new Random();
-            while(counter.get(randNum) <= 0) {
-                randNum = random.nextInt(answer.size());
-            }
-            diabuildFunTotal.setMessage(Integer.toString(randNum));
-            counter.put(Long.parseLong(Integer.toString(randNum)), counter.get(Integer.toString(randNum)) - 1);
-
-            diabuildFunTotal.setPositiveButton("다음", null);
-            diabuildFunTotal.show();
-        }
-        diabuildFunTotal.setTitle("끝");
-        diabuildFunTotal.setMessage("집계가 모두 끝났습니다.");
-        diabuildFunTotal.setPositiveButton("네", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                finish();
-            }
-        });
-        diabuildFunTotal.show();
-    }
 }
