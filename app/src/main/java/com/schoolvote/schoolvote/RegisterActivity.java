@@ -44,6 +44,7 @@ public class RegisterActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         db = FirebaseFirestore.getInstance();
     }
+
     public void onClick(View view) {
         final pubMethods pm = new pubMethods();
         final AlertDialog.Builder diabuild = new AlertDialog.Builder(this);
@@ -54,6 +55,7 @@ public class RegisterActivity extends AppCompatActivity {
         EditText grade_reg = findViewById(R.id.grade_reg);
         EditText clroom_reg = findViewById(R.id.clroom_reg);
         EditText number_reg = findViewById(R.id.number_reg);
+        EditText school_reg = findViewById(R.id.school_reg);
         final Map<String, Object> userdata = new HashMap<>();
         final String email = email_reg.getText().toString();
         final String password = pw_reg.getText().toString();
@@ -61,7 +63,6 @@ public class RegisterActivity extends AppCompatActivity {
         final int clroom;
         final String number;
         final boolean isAdmin = false;
-        final int openedVote = 0;
         if (pm.isNumeric(grade_reg.getText().toString()) && pm.isNumeric(clroom_reg.getText().toString())) {
             grade = Integer.parseInt(grade_reg.getText().toString());
             clroom = Integer.parseInt(clroom_reg.getText().toString());
@@ -71,9 +72,10 @@ public class RegisterActivity extends AppCompatActivity {
             userdata.put("number", number);
             userdata.put("isAdmin", isAdmin);
             userdata.put("feedback", 0);
+            userdata.put("school", school_reg.getText().toString());
         } else {
             diabuild.setTitle("회원가입 실패");
-            diabuild.setMessage("학년, 반, 번호에는 반드시 숫자만 입력해주세요!");
+            diabuild.setMessage("학년, 반에는 반드시 숫자만 입력해주세요!");
             diabuild.setPositiveButton("예", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {

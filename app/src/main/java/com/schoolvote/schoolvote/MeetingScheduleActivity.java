@@ -37,17 +37,18 @@ public class MeetingScheduleActivity extends AppCompatActivity {
         currentUser = (User) getIntent().getSerializableExtra("currentUser");
         email = currentUser.getEmail();
         container = findViewById(R.id.linear_vs);
-        Map<String, Long> forsomeone = new HashMap<>();
+        Map<String, Object> forsomeone = new HashMap<>();
         if (currentUser != null) {
             forsomeone.put("grade", currentUser.getGrade_update());
             forsomeone.put("clroom", currentUser.getClroom_update());
+            forsomeone.put("school", currentUser.getSchool());
             loadMeetings(forsomeone);
         } else {
             Log.d("loadVote", "Logged in user does not exist.");
         }
     }
 
-    private void loadMeetings(Map<String, Long> forsomeone) {
+    private void loadMeetings(Map<String, Object> forsomeone) {
         if (forsomeone != null) {
             db.collection("meetings")
                     .whereEqualTo("for", forsomeone)

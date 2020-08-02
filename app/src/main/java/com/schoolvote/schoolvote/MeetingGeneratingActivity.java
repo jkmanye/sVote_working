@@ -45,9 +45,10 @@ public class MeetingGeneratingActivity extends AppCompatActivity {
 
         meeting.put("title", title_mg.getText().toString());
         meeting.put("info", subtitle_mg.getText().toString());
-        final Map<String, Long> forsomeone = new HashMap<>();
+        final Map<String, Object> forsomeone = new HashMap<>();
         forsomeone.put("grade", Long.parseLong(grade_mg.getText().toString()));
         forsomeone.put("clroom", Long.parseLong(clroom_mg.getText().toString()));
+        forsomeone.put("school", currentUser.getSchool());
         meeting.put("for", forsomeone);
         meeting.put("chatnum", 1);
         meeting.put("opener", currentUser.getEmail());

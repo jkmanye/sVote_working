@@ -43,7 +43,7 @@
         android:background="@color/colorVote"
         android:onClick="vg"
         android:text="@string/makevote"
-        app:layout_constraintBottom_toTopOf="@id/vs_mm"
+        app:layout_constraintBottom_toTopOf="@id/vman_mm"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -56,7 +56,7 @@
         android:background="@color/colorVote"
         android:onClick="vm"
         android:text="@string/managevote"
-        app:layout_constraintBottom_toTopOf="@id/gv_mm"
+        app:layout_constraintBottom_toTopOf="@id/vs_mm"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -110,5 +110,15 @@
         android:text="@string/mh"
         app:layout_constraintBottom_toTopOf="@id/hs_mm"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:layout_width="188dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/svotelogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,26 +3,34 @@ package com.schoolvote.schoolvote;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.webkit.WebChromeClient;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.DocumentReference;
-import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.google.firebase.firestore.Transaction;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
 
+import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
 public class FeedbackActivity extends AppCompatActivity {
 
     FirebaseFirestore db = FirebaseFirestore.getInstance();
+    StorageReference storage = FirebaseStorage.getInstance().getReference();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +64,31 @@ public class FeedbackActivity extends AppCompatActivity {
                     Toast.makeText(FeedbackActivity.this, "잠시 오류가 발생하였습니다.", Toast.LENGTH_SHORT).show();
                     finish();
                 }
+            }
+        });
+    }
+
+    public void displayBrowseDialog(View view) {
+        Intent intent = new Intent()
+                .setType("*/*")
+                .setAction(Intent.ACTION_GET_CONTENT);
+
+        startActivityForResult(Intent.createChooser(intent, "Select a file"), 1001);
+    }
+
+    public void addFile(Uri file) {
+        final
+        Uri upload = file;
+        StorageReference ref = storage.child(upload.getPath());
+        ref.putFile(upload).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+            @Override
+            public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                Log.e("FeedUpload", "Error adding file", e);
             }
         });
     }

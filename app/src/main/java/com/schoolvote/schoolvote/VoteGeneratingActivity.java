@@ -36,13 +36,13 @@ public class VoteGeneratingActivity extends AppCompatActivity {
     long counter;
     String put;
 
-    User user;
+    User currentUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vote_generating);
-        user = (User) getIntent().getSerializableExtra("currentUser");
+        currentUser = (User) getIntent().getSerializableExtra("currentUser");
         db = FirebaseFirestore.getInstance();
         title_vg = findViewById(R.id.title_vg);
         subtitle_vg = findViewById(R.id.subtitle_vg);
@@ -61,23 +61,23 @@ public class VoteGeneratingActivity extends AppCompatActivity {
 
     public void onClick(View view) {
         final AlertDialog.Builder diabuild = new AlertDialog.Builder(this);
-        final Map<String, Long> forsomeone = new HashMap<>();
+        final Map<String, Object> forsomeone = new HashMap<>();
         final Map<String, Long> answer = new HashMap<>();
         try {
             forsomeone.put("grade", Long.parseLong(grade_vg.getText().toString()));
             forsomeone.put("clroom", Long.parseLong(clroom_vg.getText().toString()));
+            forsomeone.put("school", currentUser.getSchool());
             vote.put("title", title_vg.getText().toString());
             vote.put("info", subtitle_vg.getText().toString());
             vote.put("isClosed", closed);
-            vote.put("opener", user.getEmail());
+            vote.put("opener", currentUser.getEmail());
             vote.put("for", forsomeone);
             vote.put("counter", counter);
             vote.put("answer", answer);
             vote.put("isShared", isShared);
-            final Intent menu = new Intent(this, MainMenuActivity.class);
             final String TAG = "addVote";
             vote.put("Lists", list);
-            if (user.isAdmin()) {
+            if (currentUser.isAdmin()) {
                 db.collection("votes").document(title_vg.getText().toString()).set(vote).addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
                     public void onSuccess(Void aVoid) {
@@ -98,7 +98,7 @@ public class VoteGeneratingActivity extends AppCompatActivity {
                         Log.e(TAG, "Error adding vote", e);
                     }
                 });
-            } else if (!user.isAdmin()) {
+            } else if (!currentUser.isAdmin()) {
                 diabuild.setTitle("");
                 diabuild.setMessage("관리자만 들어올 수 있어요!");
                 diabuild.setPositiveButton("예", new DialogInterface.OnClickListener() {

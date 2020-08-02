@@ -75,6 +75,7 @@ public class LoginActivity extends AppCompatActivity {
                                                     currentUser.setNumber_update((String) document.get("number"));
                                                     currentUser.setAdmin((boolean) document.get("isAdmin"));
                                                     currentUser.setFeedback((long) document.get("feedback"));
+                                                    currentUser.setSchool((String) document.get("school"));
                                                     Log.d(TAG, "signInWithEmail:success");
                                                     diabuild.setTitle("로그인 성공");
                                                     diabuild.setMessage("로그인에 성공하였습니다.");

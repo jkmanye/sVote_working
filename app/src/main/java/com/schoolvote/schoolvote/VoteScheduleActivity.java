@@ -40,17 +40,18 @@ public class VoteScheduleActivity extends AppCompatActivity {
         currentUser = (User) getIntent().getSerializableExtra("currentUser");
         email = currentUser.getEmail();
         container = findViewById(R.id.linear_vs);
-        Map<String, Long> forsomeone = new HashMap<>();
+        Map<String, Object> forsomeone = new HashMap<>();
         if (currentUser != null) {
             forsomeone.put("grade", currentUser.getGrade_update());
             forsomeone.put("clroom", currentUser.getClroom_update());
+            forsomeone.put("school", currentUser.getSchool());
             loadVote(forsomeone);
         } else {
             Log.d("loadVote", "Logged in user does not exist.");
         }
     }
 
-    private void loadVote(Map<String, Long> forsomeone) {
+    private void loadVote(Map<String, Object> forsomeone) {
         if (forsomeone != null) {
             db.collection("votes")
                     .whereEqualTo("for", forsomeone)

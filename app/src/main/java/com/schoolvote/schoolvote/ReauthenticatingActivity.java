@@ -54,14 +54,14 @@ public class ReauthenticatingActivity extends AppCompatActivity {
 
 			db.runTransaction(new Transaction.Function<Void>() {
 				@Override
-				public Void apply(Transaction transaction) throws FirebaseFirestoreException {
+				public Void apply(Transaction transaction)  {
 					try {
 						transaction.update(users, "grade", Integer.parseInt(grade_ra.getText().toString()));
 						transaction.update(users, "clroom", Integer.parseInt(clroom_ra.getText().toString()));
-						transaction.update(users, "number", Integer.parseInt(number_ra.getText().toString()));
+						transaction.update(users, "number", number_ra.getText().toString());
 					} catch (Exception e) {
 						diabuild.setTitle("회원 정보 수정");
-						diabuild.setMessage("회원가입할 때도 말씀드렸지만, 학년, 반, 그리고 번호에는 반드시 숫자만 기입해주세요!");
+						diabuild.setMessage("회원가입할 때도 말씀드렸지만, 학년, 반에는 반드시 숫자만 기입해주세요!");
 						diabuild.setPositiveButton("예", null);
 						diabuild.show();
 					}

@@ -859,6 +859,7 @@ id grade_vg
 id group_divider
 id groups
 id gv_mm
+id hello
 id home
 id homeAsUp
 id hs_mm
@@ -912,6 +913,7 @@ id register_lg
 id right
 id right_icon
 id right_side
+id school_reg
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -976,7 +978,6 @@ id textView6
 id textView7
 id textView8
 id textView9
-id textView_ms
 id time
 id title
 id titleDividerNoCustom
@@ -1152,13 +1153,16 @@ string lvst
 string mail
 string makevote
 string managevote
+string meetingschedule
 string mh
 string nuh
 string project_id
 string push
 string pw
 string register
+string sch
 string schedule
+string schint
 string school
 string schoolnum
 string search

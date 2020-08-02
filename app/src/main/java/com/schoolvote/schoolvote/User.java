@@ -12,6 +12,7 @@ public class User implements Serializable {
     private long feedback;
     private String joiningVoteTitle;
     private String joiningMeetingTitle;
+    private String school;
 
     public void setEmail(String email) {
         this.email = email;
@@ -35,11 +36,13 @@ public class User implements Serializable {
 
     public void setJoiningVoteTitle(String joiningVoteTitle) { this.joiningVoteTitle = joiningVoteTitle; }
 
-    public void setFeedback(Long feedback) { this.feedback = feedback; }
-
-    public String getEmail() { return email; }
+    public void setFeedback(long feedback) { this.feedback = feedback; }
 
     public void setJoiningMeetingTitle(String joiningMeetingTitle) { this.joiningMeetingTitle = joiningMeetingTitle; }
+
+    public void setSchool(String school) { this.school = school; }
+
+    public String getEmail() { return email; }
 
     public long getGrade_update() { return grade_update; }
 
@@ -54,4 +57,6 @@ public class User implements Serializable {
     public long getFeedback() { return feedback; }
 
     public String getJoiningMeetingTitle() { return joiningMeetingTitle; }
+
+    public String getSchool() { return school; }
 }

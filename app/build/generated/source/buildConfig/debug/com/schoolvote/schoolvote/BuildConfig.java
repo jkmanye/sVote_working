@@ -8,5 +8,5 @@ public final class BuildConfig {
   public static final String APPLICATION_ID = "com.schoolvote.schoolvote";
   public static final String BUILD_TYPE = "debug";
   public static final int VERSION_CODE = 1;
-  public static final String VERSION_NAME = "1.10";
+  public static final String VERSION_NAME = "Release Beta 2.0";
 }
