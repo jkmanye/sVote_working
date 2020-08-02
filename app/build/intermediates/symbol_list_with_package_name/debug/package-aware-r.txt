@@ -803,7 +803,6 @@ id button_ra
 id button_reg
 id button_vg
 id button_vp
-id calendar_ms
 id calender_vs
 id center_vertical
 id chains
@@ -859,7 +858,6 @@ id grade_vg
 id group_divider
 id groups
 id gv_mm
-id hello
 id home
 id homeAsUp
 id hs_mm

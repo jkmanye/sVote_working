@@ -446,12 +446,12 @@
     <string name="default_web_client_id" translatable="false">394407981186-a6giueakss0do9u72ipq69r3cihudpdr.apps.googleusercontent.com</string>
     <string name="delete">투표 삭제</string>
     <string name="dl">투표가 아직 불러와지지\n않았습니다. 절대 삭제나\n집계 버튼을 누르지 마십시오.</string>
-    <string name="dlm">생각방가 아직 불러와지지\n않았습니다. 절대\n삭제 버튼을 누르지 마십시오.</string>
+    <string name="dlm">생각방이 아직 불러와지지\n않았습니다. 절대\n삭제 버튼을 누르지 마십시오.</string>
     <string name="dm">회의 삭제</string>
     <string name="emh">example@svote-234d1.appspot.com</string>
     <string name="expires">만료</string>
     <string name="feed">고객센터</string>
-    <string name="feedhint">여기에 피드백을 남겨주세요...\n(이메일 : hychew463@gmail.com)</string>
+    <string name="feedhint">여기에 피드백을 남겨주세요…\n(이메일 : hychew463@gmail.com)</string>
     <string name="firebase_database_url" translatable="false">https://svote-234d1.firebaseio.com</string>
     <string name="forsomeone">대상</string>
     <string name="gcm_defaultSenderId" translatable="false">394407981186</string>
@@ -468,7 +468,7 @@
     <string name="jv">투표 참여</string>
     <string name="lists">항목</string>
     <string name="login">로그인</string>
-    <string name="lv">투표 진행 중...</string>
+    <string name="lv">투표 진행 중…</string>
     <string name="lvst">현재 sVote 앱을 이용해 투표를 진행 중입니다.</string>
     <string name="mail">이메일</string>
     <string name="makevote">투표 만들기</string>
@@ -485,7 +485,7 @@
     <string name="schint">서울도성초등학교</string>
     <string name="school">학교</string>
     <string name="schoolnum">이름</string>
-    <string name="search">검색...</string>
+    <string name="search">검색…</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subtitle">상세 설명</string>

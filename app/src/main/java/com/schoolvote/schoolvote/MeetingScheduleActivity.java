@@ -32,11 +32,11 @@ public class MeetingScheduleActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vote_schedule);
+        setContentView(R.layout.activity_meeting_schedule);
         lp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
         currentUser = (User) getIntent().getSerializableExtra("currentUser");
         email = currentUser.getEmail();
-        container = findViewById(R.id.linear_vs);
+        container = findViewById(R.id.linear_ms);
         Map<String, Object> forsomeone = new HashMap<>();
         if (currentUser != null) {
             forsomeone.put("grade", currentUser.getGrade_update());
