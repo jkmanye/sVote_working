@@ -69,7 +69,7 @@ public class MeetingGeneratingActivity extends AppCompatActivity {
                     });
                     diabuild.show();
                     Map<String, Object> startUpMessage = new HashMap<>();
-                    startUpMessage.put("message", "이 생각방이 시작되었어요. 다양한 상상을 마음껏 펼쳐보아요.");
+                    startUpMessage.put("message", "이 생각 더하기가 시작되었어요. 다양한 상상을 마음껏 펼쳐보아요.");
                     startUpMessage.put("writer", "관리자");
                     FirebaseFirestore.getInstance().collection("meetings").document(title_mg.getText().toString()).collection("chat").document("'관리자").set(startUpMessage).addOnSuccessListener(new OnSuccessListener<Void>() {
                         @Override

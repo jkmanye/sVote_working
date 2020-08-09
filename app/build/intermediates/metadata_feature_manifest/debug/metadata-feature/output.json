@@ -11,7 +11,7 @@
         "type": "MAIN",
         "splits": [],
         "versionCode": 1,
-        "versionName": "Release Beta 2.0",
+        "versionName": "Release 1.0",
         "outputFile": "app-debug.apk",
         "fullName": "debug",
         "baseName": "debug",

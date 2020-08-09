@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.schoolvote.schoolvote"
     android:versionCode="1"
-    android:versionName="Release Beta 2.0" >
+    android:versionName="Release 1.0" >
 
     <uses-sdk
         android:minSdkVersion="16"
