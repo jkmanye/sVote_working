@@ -60,7 +60,7 @@ public class MeetingGeneratingActivity extends AppCompatActivity {
                 public void onSuccess(Void aVoid) {
                     Log.d(TAG, "Added meeting with title " + title_mg.getText().toString());
                     diabuild.setTitle("");
-                    diabuild.setMessage("회의가 등록되었습니다.");
+                    diabuild.setMessage("생각더하기+가 등록되었습니다.");
                     diabuild.setPositiveButton("예", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
