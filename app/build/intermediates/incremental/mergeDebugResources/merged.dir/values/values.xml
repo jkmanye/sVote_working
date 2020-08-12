@@ -442,12 +442,11 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="dayslater"> 일 후</string>
     <string name="default_web_client_id" translatable="false">394407981186-a6giueakss0do9u72ipq69r3cihudpdr.apps.googleusercontent.com</string>
     <string name="delete">투표 삭제</string>
     <string name="dl">투표가 아직 불러와지지\n않았습니다. 절대 삭제나\n집계 버튼을 누르지 마십시오.</string>
-    <string name="dlm">생각방이 아직 불러와지지\n않았습니다. 절대\n삭제 버튼을 누르지 마십시오.</string>
-    <string name="dm">회의 삭제</string>
+    <string name="dlm">생각더하기+가 아직 불러와지지\n않았습니다. 절대\n삭제 버튼을 누르지 마십시오.</string>
+    <string name="dm">생각더하기+ 삭제</string>
     <string name="emh">example@svote-234d1.appspot.com</string>
     <string name="expires">만료</string>
     <string name="feed">고객센터</string>

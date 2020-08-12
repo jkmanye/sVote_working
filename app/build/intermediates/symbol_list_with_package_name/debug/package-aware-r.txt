@@ -726,7 +726,6 @@ drawable tooltip_frame_light
 id ALT
 id CTRL
 id FUNCTION
-id LinearLayout1
 id META
 id SHIFT
 id SYM
@@ -1120,7 +1119,6 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
-string dayslater
 string default_web_client_id
 string delete
 string dl

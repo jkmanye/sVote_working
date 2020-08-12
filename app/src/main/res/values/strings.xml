@@ -40,8 +40,8 @@
     <string name="gho">생각 열기</string>
     <string name="mh">생각 관리</string>
     <string name="jmt">생각 나누기</string>
-    <string name="dm">생각더하기 삭제</string>
-    <string name="dlm">생각더하기가 아직 불러와지지\n않았습니다. 절대\n삭제 버튼을 누르지 마십시오.</string>
+    <string name="dm">생각더하기+ 삭제</string>
+    <string name="dlm">생각더하기+가 아직 불러와지지\n않았습니다. 절대\n삭제 버튼을 누르지 마십시오.</string>
     <string name="sch">학교</string>
     <string name="schint">서울도성초등학교</string>
     <string name="meetingschedule">생각 더하기</string>
