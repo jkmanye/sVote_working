@@ -31,6 +31,7 @@ public class MeetingManageActivity extends AppCompatActivity {
     EditText searchfor_mm;
 
     String inputTitle;
+    boolean isUpdated = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,6 +77,7 @@ public class MeetingManageActivity extends AppCompatActivity {
             title_mm.setText(document.getString("title"));
             subtitle_mm.setText(document.getString("info"));
             forsomeone_mm.setText(forsomeone.get("grade").toString() + "학년 " + forsomeone.get("clroom").toString() + "반");
+            isUpdated = true;
         } else {
             diabuild.setTitle("투표 찾기 실패");
             diabuild.setMessage("연 투표가 없거나 투표 찾기에 실패하였습니다.\n 어쩌면 자신이 연 투표가 아닐 지도 모릅니다.");
@@ -85,26 +87,30 @@ public class MeetingManageActivity extends AppCompatActivity {
     }
 
     public void onCcclick(View view) {
-        final EditText editText = new EditText(this);
-        final String title = title_mm.getText().toString();
-        final DocumentReference docRef = FirebaseFirestore.getInstance().collection("meetings").document(title);
-        diabuild.setTitle("삭제");
-        diabuild.setMessage("계속하려면 생각방 제목을 입력하세요 : " + title);
-        diabuild.setView(editText);
-        diabuild.setPositiveButton("입력", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                inputTitle = editText.getText().toString();
-                if (inputTitle.equals(title)) {
-                    docRef.delete();
-                    Toast.makeText(getApplicationContext(), "삭제되었습니다.", Toast.LENGTH_SHORT).show();
-                    finish();
-                } else {
-                    Toast.makeText(getApplicationContext(), "제목이 틀렸습니다.", Toast.LENGTH_SHORT).show();
+        if (isUpdated) {
+            final EditText editText = new EditText(this);
+            final String title = title_mm.getText().toString();
+            final DocumentReference docRef = FirebaseFirestore.getInstance().collection("meetings").document(title);
+            diabuild.setTitle("삭제");
+            diabuild.setMessage("계속하려면 생각더하기+ 제목을 입력하세요 : " + title);
+            diabuild.setView(editText);
+            diabuild.setPositiveButton("입력", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    inputTitle = editText.getText().toString();
+                    if (inputTitle.equals(title)) {
+                        docRef.delete();
+                        Toast.makeText(getApplicationContext(), "삭제되었습니다.", Toast.LENGTH_SHORT).show();
+                        finish();
+                    } else {
+                        Toast.makeText(getApplicationContext(), "제목이 틀렸습니다.", Toast.LENGTH_SHORT).show();
+                    }
                 }
-            }
 
-        });
-        diabuild.show();
+            });
+            diabuild.show();
+        } else {
+            Toast.makeText(getApplicationContext(), "먼저 생각더하기+의 제목을 입력하여 검색한 후 삭제할 수 있습니다.", Toast.LENGTH_LONG).show();
+        }
     }
 }

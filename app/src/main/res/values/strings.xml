@@ -33,7 +33,7 @@
     <string name="delete">투표 삭제</string>
     <string name="total">집계</string>
     <string name="search">검색…</string>
-    <string name="dl">투표가 아직 불러와지지\n않았습니다. 절대 삭제나\n집계 버튼을 누르지 마십시오.</string>
+    <string name="dl">투표명을 입력하여 검색하세요.</string>
     <string name="feed">고객센터</string>
     <string name="suda">생각 더하기</string>
     <string name="feedhint">여기에 피드백을 남겨주세요…\n(이메일 : hychew463@gmail.com)</string>
@@ -41,7 +41,7 @@
     <string name="mh">생각 관리</string>
     <string name="jmt">생각 나누기</string>
     <string name="dm">생각더하기+ 삭제</string>
-    <string name="dlm">생각더하기+가 아직 불러와지지\n않았습니다. 절대\n삭제 버튼을 누르지 마십시오.</string>
+    <string name="dlm">생각더하기+의 제목을\n입력하여 검색하세요.</string>
     <string name="sch">학교</string>
     <string name="schint">서울도성초등학교</string>
     <string name="meetingschedule">생각 더하기</string>

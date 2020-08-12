@@ -48,6 +48,7 @@ public class VoteManageActivity extends AppCompatActivity {
 
     Map<String, String> Lists = new HashMap<>();
     Map<String, Long> answer = new HashMap<>();
+    boolean isUpdated = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,11 +66,12 @@ public class VoteManageActivity extends AppCompatActivity {
 
     public void update(DocumentSnapshot document) {
         if (document != null) {
-            Map<String, Object> forsomeone = new HashMap<>();
+            Map<String, Object> forsomeone;
             forsomeone = (Map) document.get("for");
             title_vm.setText(document.getString("title"));
             subtitle_vm.setText(document.getString("info"));
             forsomeone_vm.setText(forsomeone.get("grade").toString() + "학년 " + forsomeone.get("clroom").toString() + "반");
+            isUpdated = true;
         } else {
             diabuild.setTitle("투표 찾기 실패");
             diabuild.setMessage("연 투표가 없거나 투표 찾기에 실패하였습니다.\n 어쩌면 자신이 연 투표가 아닐 지도 모릅니다.");
@@ -108,31 +110,35 @@ public class VoteManageActivity extends AppCompatActivity {
     }
 
     public void onClick(View view) {
-        final EditText editText = new EditText(this);
-        final String title = title_vm.getText().toString();
-        final String[] inputTitle = new String[1];
-        final DocumentReference docRef = db.collection("votes").document(title);
-        diabuild.setTitle("삭제");
-        diabuild.setMessage("계속하려면 투표 제목을 입력하세요 : " + title);
-        diabuild.setView(editText);
-        diabuild.setPositiveButton("입력", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                inputTitle[0] = editText.getText().toString();
-                if (inputTitle[0].equals(title)) {
-                    docRef.delete();
-                    Toast.makeText(getApplicationContext(), "삭제되었습니다.", Toast.LENGTH_SHORT).show();
-                    finish();
-                } else {
-                    Toast.makeText(getApplicationContext(), "제목이 틀렸습니다.", Toast.LENGTH_SHORT).show();
+        if(isUpdated) {
+            final EditText editText = new EditText(this);
+            final String title = title_vm.getText().toString();
+            final String[] inputTitle = new String[1];
+            final DocumentReference docRef = db.collection("votes").document(title);
+            diabuild.setTitle("삭제");
+            diabuild.setMessage("계속하려면 투표 제목을 입력하세요 : " + title);
+            diabuild.setView(editText);
+            diabuild.setPositiveButton("입력", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    inputTitle[0] = editText.getText().toString();
+                    if (inputTitle[0].equals(title)) {
+                        docRef.delete();
+                        Toast.makeText(getApplicationContext(), "삭제되었습니다.", Toast.LENGTH_SHORT).show();
+                        finish();
+                    } else {
+                        Toast.makeText(getApplicationContext(), "제목이 틀렸습니다.", Toast.LENGTH_SHORT).show();
+                    }
                 }
-            }
 
-        });
-        diabuild.show();
+            });
+            diabuild.show();
+        } else {
+            Toast.makeText(getApplicationContext(), "먼저 투표명을 입력하여 검색한 후 삭제할 수 있습니다.", Toast.LENGTH_LONG).show();
+        }
     }
 
-    public Map<Long, Long> getTotal(Map<String, String> Lists, Map<String, Long> answer) {
+    public Map<Long, Long> getTotal(Map<String, String> Lists, Map<String, Long> answer){
         Map<Long, Long> total = new HashMap<>();
         for (String key : Lists.keySet()) {
             total.put(Long.parseLong(key), 0L);
@@ -147,42 +153,46 @@ public class VoteManageActivity extends AppCompatActivity {
     }
 
     public void total(View view) {
-        DocumentReference documentReference = db.collection("votes").document(currentUser.getJoiningVoteTitle());
-        documentReference.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-            @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
-                if (task.isSuccessful()) {
-                    DocumentSnapshot documentSnapshot = task.getResult();
-                    Lists = (Map) documentSnapshot.get("Lists");
-                    answer = (Map) documentSnapshot.get("answer");
-                    Map<Long, Long> total = getTotal(Lists, answer);
-                    List<String> displayTotal = new ArrayList<>();
-                    long percentage;
+        if(isUpdated) {
+            DocumentReference documentReference = db.collection("votes").document(currentUser.getJoiningVoteTitle());
+            documentReference.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+                @Override
+                public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                    if (task.isSuccessful()) {
+                        DocumentSnapshot documentSnapshot = task.getResult();
+                        Lists = (Map) documentSnapshot.get("Lists");
+                        answer = (Map) documentSnapshot.get("answer");
+                        Map<Long, Long> total = getTotal(Lists, answer);
+                        List<String> displayTotal = new ArrayList<>();
+                        long percentage;
 
-                    if (answer.size() > 0) {
-                        for (String key : Lists.keySet()) {
-                            if (total.get(Long.parseLong(key)) > 0) {
-                                percentage = total.get(Long.parseLong(key)) * 100 / answer.size();
-                            } else percentage = 0;
-                            displayTotal.add(String.format("%d%s %s\n%s %d %s %s %d%s", Long.parseLong(key) + 1, "번 항목 :", Lists.get(key), "득표수 :", total.get(Long.parseLong(key)), ",", "득표율 :", percentage, "%"));
+                        if (answer.size() > 0) {
+                            for (String key : Lists.keySet()) {
+                                if (total.get(Long.parseLong(key)) > 0) {
+                                    percentage = total.get(Long.parseLong(key)) * 100 / answer.size();
+                                } else percentage = 0;
+                                displayTotal.add(String.format("%d%s %s\n%s %d %s %s %d%s", Long.parseLong(key) + 1, "번 항목 :", Lists.get(key), "득표수 :", total.get(Long.parseLong(key)), ",", "득표율 :", percentage, "%"));
+                            }
+                            diabuildTotal.setTitle(currentUser.getJoiningVoteTitle());
+                            final CharSequence[] items = displayTotal.toArray(new String[displayTotal.size()]);
+                            diabuildTotal.setItems(items, null);
+                            diabuildTotal.show();
                         }
+                    } else {
                         diabuildTotal.setTitle(currentUser.getJoiningVoteTitle());
-                        final CharSequence[] items = displayTotal.toArray(new String[displayTotal.size()]);
-                        diabuildTotal.setItems(items, null);
+                        diabuildTotal.setMessage("아무도 응답하지 않았습니다!");
+                        diabuildTotal.setPositiveButton("예", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                finish();
+                            }
+                        });
                         diabuildTotal.show();
                     }
-                } else {
-                    diabuildTotal.setTitle(currentUser.getJoiningVoteTitle());
-                    diabuildTotal.setMessage("아무도 응답하지 않았습니다!");
-                    diabuildTotal.setPositiveButton("예", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
-                            finish();
-                        }
-                    });
-                    diabuildTotal.show();
                 }
-            }
-        });
+            });
+        } else {
+            Toast.makeText(getApplicationContext(), "먼저 투표명을 입력하여 검색한 후 집계할 수 있습니다.", Toast.LENGTH_LONG).show();
+        }
     }
 }
