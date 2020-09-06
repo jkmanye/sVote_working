@@ -28,6 +28,8 @@ public class AccountInfoActivity extends AppCompatActivity {
         clroom_ai.setText(Long.toString(currentUser.getClroom_update()));
         final TextView number_ai = findViewById(R.id.number_ai);
         number_ai.setText(currentUser.getNumber_update());
+        final TextView school_ai = findViewById(R.id.school_ai);
+        school_ai.setText(currentUser.getSchool());
     }
 
     public void reauthenticate(View view) {

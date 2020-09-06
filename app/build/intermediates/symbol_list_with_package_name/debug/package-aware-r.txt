@@ -408,13 +408,15 @@ color button_material_dark
 color button_material_light
 color colorAccent
 color colorBoard
+color colorJoin
 color colorLightGray
+color colorMN
+color colorNormal
+color colorOpen
 color colorPrimary
 color colorPrimaryDark
 color colorRed
-color colorVote
 color colorWhite
-color colorbs
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -719,6 +721,10 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable openj
+drawable openm
+drawable openn
+drawable openr
 drawable sorryfordisconnecting
 drawable svotelogo
 drawable tooltip_frame_dark
@@ -910,6 +916,7 @@ id register_lg
 id right
 id right_icon
 id right_side
+id school_ai
 id school_reg
 id screen
 id scrollIndicatorDown

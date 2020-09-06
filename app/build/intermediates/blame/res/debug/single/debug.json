@@ -8,6 +8,10 @@
         "source": "/Users/chu/Desktop/sVote4_working/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
     },
     {
+        "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/debug/drawable_openr.xml.flat",
+        "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/drawable/openr.xml"
+    },
+    {
         "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/debug/layout_activity_feedback.xml.flat",
         "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/layout/activity_feedback.xml"
     },
@@ -46,6 +50,10 @@
     {
         "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
         "source": "/Users/chu/Desktop/sVote4_working/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/debug/drawable_openn.xml.flat",
+        "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/drawable/openn.xml"
     },
     {
         "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -96,6 +104,10 @@
         "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/debug/drawable_openj.xml.flat",
+        "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/drawable/openj.xml"
+    },
+    {
         "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
         "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/layout/activity_login.xml"
     },
@@ -122,6 +134,10 @@
     {
         "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/debug/drawable_openm.xml.flat",
+        "source": "/Users/chu/Desktop/sVote4_working/app/src/main/res/drawable/openm.xml"
     },
     {
         "merged": "/Users/chu/Desktop/sVote4_working/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",

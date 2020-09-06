@@ -57,6 +57,28 @@ public class TalkActivity extends AppCompatActivity {
         currentUser = (User) getIntent().getSerializableExtra("currentUser");
         title = getIntent().getStringExtra("title");
         getMessages();
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                final DocumentReference docRef = FirebaseFirestore.getInstance().collection("meetings").document(title);
+                docRef.addSnapshotListener(new EventListener<DocumentSnapshot>() {
+                    @Override
+                    public void onEvent(@Nullable DocumentSnapshot snapshot, @Nullable FirebaseFirestoreException e) {
+                        if (e != null) {
+                            Log.e("Chat", "Listen failed.", e);
+                            return;
+                        }
+
+                        if (snapshot != null && snapshot.exists()) {
+
+                        } else {
+
+                        }
+                    }
+                });
+            }
+        }).start();
     }
 
     public void getMessages() {
@@ -81,7 +103,7 @@ public class TalkActivity extends AppCompatActivity {
         });
     }
 
-    public void refresh() { Intent intent = new Intent(this, MeetingScheduleActivity.class); intent.putExtra("currentUser", currentUser); startActivityForResult(intent, 1001); }
+    public void refresh() { Intent intent = new Intent(this, TalkActivity.class); intent.putExtra("currentUser", currentUser); intent.putExtra("title", title); startActivityForResult(intent, 1001); }
 
     public void sendMessage(View view)  {
         chat.put("writer", currentUser.getNumber_update());
