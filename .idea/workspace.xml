@@ -15,115 +15,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aeb67b03-257b-4b35-bf4b-1730f0ad5deb" name="Default Changelist" comment="added comma to">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/openj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/openm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/openn.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/openr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/.values 2.xml.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/schoolvote/schoolvote/BuildConfig 2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/sVote_working/app/build/intermediates/dex/release/mergeDexRelease/.classes.dex.icloud" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/sVote_working/app/build/intermediates/dex/release/mergeDexRelease/.classes2.dex.icloud" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/bundle-manifest/.AndroidManifest 4.xml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/bundle-manifest/.output 4.json.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/.AndroidManifest 4.xml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/.output 4.json.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/AccountInfoActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/AccountInfoActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/MeetingGeneratingActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/MeetingGeneratingActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/MeetingManageActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/MeetingManageActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/MeetingPreviewActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/MeetingPreviewActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/RegisterActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/RegisterActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$1$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$2$2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$2$2$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$2$2$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$2$2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$3$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$3$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$3$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$3$2$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$3$2$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$3$2$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$3$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$3$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/TalkActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/VoteGeneratingActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/VoteGeneratingActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/VoteManageActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/VoteManageActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/VotePreviewActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/schoolvote/schoolvote/VotePreviewActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/.manifest-merger-blame-debug-report 3.txt.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/.AndroidManifest 4.xml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/.output 4.json.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/metadata_feature_manifest/debug/metadata-feature/.output 4.json.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/80521d45183d1ebbcd98184aceeab24f635959d8486987d54c3424a1f0a7a964_0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/80521d45183d1ebbcd98184aceeab24f635959d8486987d54c3424a1f0a7a964_1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/AccountInfoActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/AccountInfoActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/MeetingGeneratingActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/MeetingGeneratingActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/MeetingManageActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/MeetingManageActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/MeetingPreviewActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/MeetingPreviewActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/RegisterActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/RegisterActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$1$1.dex" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$2$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$2$2$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$2$2$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$2$2$3.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$2$2.dex" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$3$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$3$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$3$2$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$3$2$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$3$2$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$3$2$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$3$2$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$3$2$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$3$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$3$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity$3.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/TalkActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/VoteGeneratingActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/VoteGeneratingActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/VoteManageActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/VoteManageActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/VotePreviewActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/schoolvote/schoolvote/VotePreviewActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_account_info.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_account_info.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_feedback.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_feedback.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main_menu.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main_menu.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_meeting_generating.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_meeting_generating.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_meeting_manage.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_meeting_manage.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_meeting_schedule.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_meeting_schedule.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_reauthenticating.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_reauthenticating.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_register.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_register.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_vote_alert_dialog.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_vote_alert_dialog.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_vote_generating.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_vote_generating.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_vote_manage.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_vote_manage.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_vote_schedule.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_vote_schedule.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/schoolvote/schoolvote/AccountInfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/schoolvote/schoolvote/AccountInfoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/schoolvote/schoolvote/TalkActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/schoolvote/schoolvote/TalkActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_account_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_account_info.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_feedback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_feedback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_meeting_generating.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_meeting_generating.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_meeting_manage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_meeting_manage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_meeting_schedule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_meeting_schedule.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_reauthenticating.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_reauthenticating.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_vote_alert_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_vote_alert_dialog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_vote_generating.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_vote_generating.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_vote_manage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_vote_manage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_vote_schedule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_vote_schedule.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sVote_working" beforeDir="false" afterPath="$PROJECT_DIR$/sVote_working" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sVote_working/.gradle/6.1.1/executionHistory/.executionHistory.bin.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sVote_working/app/build/intermediates/dex/release/mergeDexRelease/classes.dex" beforeDir="false" />
@@ -139,7 +79,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="R39M30149TT" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_XL_API_30" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -218,7 +158,10 @@
     <property name="last.edited.regexp" value="hychew463@gmail.com" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.762916359">
@@ -367,6 +310,10 @@
       <screen x="0" y="23" width="1280" height="712" />
     </state>
     <state x="335" y="23" key="#MeetingGeneratingActivity/0.23.1280.712@0.23.1280.712" timestamp="1595240581203" />
+    <state x="165" y="115" key="#PSD" timestamp="1599654606109">
+      <screen x="0" y="22" width="1280" height="710" />
+    </state>
+    <state x="165" y="115" key="#PSD/0.22.1280.710@0.22.1280.710" timestamp="1599654606109" />
     <state x="378" y="141" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1595688701578">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
@@ -403,67 +350,71 @@
       <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state x="198" y="23" key="CommitChangelistDialog2/0.23.1280.716@0.23.1280.716" timestamp="1593341926950" />
-    <state width="1238" height="143" key="GridCell.Tab.0.bottom" timestamp="1597242213701">
+    <state width="1238" height="187" key="GridCell.Tab.0.bottom" timestamp="1599654679921">
       <screen x="0" y="22" width="1280" height="710" />
     </state>
-    <state width="1238" height="143" key="GridCell.Tab.0.bottom/0.22.1280.710@0.22.1280.710" timestamp="1597242213701" />
+    <state width="1238" height="187" key="GridCell.Tab.0.bottom/0.22.1280.710@0.22.1280.710" timestamp="1599654679921" />
     <state width="1238" height="143" key="GridCell.Tab.0.bottom/0.22.1280.713@0.22.1280.713" timestamp="1597240350638" />
     <state width="1238" height="143" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1596376052996" />
     <state width="1238" height="143" key="GridCell.Tab.0.bottom/0.23.1280.712@0.23.1280.712" timestamp="1596857434293" />
     <state width="1238" height="144" key="GridCell.Tab.0.bottom/0.23.1280.714@0.23.1280.714" timestamp="1596347438628" />
     <state width="1238" height="157" key="GridCell.Tab.0.bottom/0.23.1280.716@0.23.1280.716" timestamp="1593791253710" />
     <state width="1238" height="157" key="GridCell.Tab.0.bottom/0.23.1280.717@0.23.1280.717" timestamp="1593789853571" />
-    <state width="1238" height="143" key="GridCell.Tab.0.center" timestamp="1597242213700">
+    <state width="1238" height="187" key="GridCell.Tab.0.center" timestamp="1599654679920">
       <screen x="0" y="22" width="1280" height="710" />
     </state>
-    <state width="1238" height="143" key="GridCell.Tab.0.center/0.22.1280.710@0.22.1280.710" timestamp="1597242213700" />
+    <state width="1238" height="187" key="GridCell.Tab.0.center/0.22.1280.710@0.22.1280.710" timestamp="1599654679920" />
     <state width="1238" height="143" key="GridCell.Tab.0.center/0.22.1280.713@0.22.1280.713" timestamp="1597240350637" />
     <state width="1238" height="143" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1596376052992" />
     <state width="1238" height="143" key="GridCell.Tab.0.center/0.23.1280.712@0.23.1280.712" timestamp="1596857434291" />
     <state width="1238" height="144" key="GridCell.Tab.0.center/0.23.1280.714@0.23.1280.714" timestamp="1596347438627" />
     <state width="1238" height="157" key="GridCell.Tab.0.center/0.23.1280.716@0.23.1280.716" timestamp="1593791253709" />
     <state width="1238" height="157" key="GridCell.Tab.0.center/0.23.1280.717@0.23.1280.717" timestamp="1593789853570" />
-    <state width="1238" height="143" key="GridCell.Tab.0.left" timestamp="1597242213699">
+    <state width="1238" height="187" key="GridCell.Tab.0.left" timestamp="1599654679919">
       <screen x="0" y="22" width="1280" height="710" />
     </state>
-    <state width="1238" height="143" key="GridCell.Tab.0.left/0.22.1280.710@0.22.1280.710" timestamp="1597242213699" />
+    <state width="1238" height="187" key="GridCell.Tab.0.left/0.22.1280.710@0.22.1280.710" timestamp="1599654679919" />
     <state width="1238" height="143" key="GridCell.Tab.0.left/0.22.1280.713@0.22.1280.713" timestamp="1597240350636" />
     <state width="1238" height="143" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1596376052991" />
     <state width="1238" height="143" key="GridCell.Tab.0.left/0.23.1280.712@0.23.1280.712" timestamp="1596857434290" />
     <state width="1238" height="144" key="GridCell.Tab.0.left/0.23.1280.714@0.23.1280.714" timestamp="1596347438626" />
     <state width="1238" height="157" key="GridCell.Tab.0.left/0.23.1280.716@0.23.1280.716" timestamp="1593791253708" />
     <state width="1238" height="157" key="GridCell.Tab.0.left/0.23.1280.717@0.23.1280.717" timestamp="1593789853569" />
-    <state width="1238" height="143" key="GridCell.Tab.0.right" timestamp="1597242213701">
+    <state width="1238" height="187" key="GridCell.Tab.0.right" timestamp="1599654679920">
       <screen x="0" y="22" width="1280" height="710" />
     </state>
-    <state width="1238" height="143" key="GridCell.Tab.0.right/0.22.1280.710@0.22.1280.710" timestamp="1597242213701" />
+    <state width="1238" height="187" key="GridCell.Tab.0.right/0.22.1280.710@0.22.1280.710" timestamp="1599654679920" />
     <state width="1238" height="143" key="GridCell.Tab.0.right/0.22.1280.713@0.22.1280.713" timestamp="1597240350637" />
     <state width="1238" height="143" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1596376052995" />
     <state width="1238" height="143" key="GridCell.Tab.0.right/0.23.1280.712@0.23.1280.712" timestamp="1596857434292" />
     <state width="1238" height="144" key="GridCell.Tab.0.right/0.23.1280.714@0.23.1280.714" timestamp="1596347438627" />
     <state width="1238" height="157" key="GridCell.Tab.0.right/0.23.1280.716@0.23.1280.716" timestamp="1593791253709" />
     <state width="1238" height="157" key="GridCell.Tab.0.right/0.23.1280.717@0.23.1280.717" timestamp="1593789853571" />
-    <state width="1238" height="198" key="GridCell.Tab.1.bottom" timestamp="1595690263367">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state width="1238" height="187" key="GridCell.Tab.1.bottom" timestamp="1599654679923">
+      <screen x="0" y="22" width="1280" height="710" />
     </state>
+    <state width="1238" height="187" key="GridCell.Tab.1.bottom/0.22.1280.710@0.22.1280.710" timestamp="1599654679923" />
     <state width="1238" height="198" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1595690263367" />
     <state width="1238" height="205" key="GridCell.Tab.1.bottom/0.23.1280.712@0.23.1280.712" timestamp="1595119799588" />
     <state width="1238" height="205" key="GridCell.Tab.1.bottom/0.23.1280.714@0.23.1280.714" timestamp="1595120589097" />
-    <state width="1238" height="198" key="GridCell.Tab.1.center" timestamp="1595690263367">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state width="1238" height="187" key="GridCell.Tab.1.center" timestamp="1599654679922">
+      <screen x="0" y="22" width="1280" height="710" />
     </state>
+    <state width="1238" height="187" key="GridCell.Tab.1.center/0.22.1280.710@0.22.1280.710" timestamp="1599654679922" />
     <state width="1238" height="198" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1595690263367" />
     <state width="1238" height="205" key="GridCell.Tab.1.center/0.23.1280.712@0.23.1280.712" timestamp="1595119799587" />
     <state width="1238" height="205" key="GridCell.Tab.1.center/0.23.1280.714@0.23.1280.714" timestamp="1595120589096" />
-    <state width="1238" height="198" key="GridCell.Tab.1.left" timestamp="1595690263366">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state width="1238" height="187" key="GridCell.Tab.1.left" timestamp="1599654679921">
+      <screen x="0" y="22" width="1280" height="710" />
     </state>
+    <state width="1238" height="187" key="GridCell.Tab.1.left/0.22.1280.710@0.22.1280.710" timestamp="1599654679921" />
     <state width="1238" height="198" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1595690263366" />
     <state width="1238" height="205" key="GridCell.Tab.1.left/0.23.1280.712@0.23.1280.712" timestamp="1595119799587" />
     <state width="1238" height="205" key="GridCell.Tab.1.left/0.23.1280.714@0.23.1280.714" timestamp="1595120589095" />
-    <state width="1238" height="198" key="GridCell.Tab.1.right" timestamp="1595690263367">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state width="1238" height="187" key="GridCell.Tab.1.right" timestamp="1599654679922">
+      <screen x="0" y="22" width="1280" height="710" />
     </state>
+    <state width="1238" height="187" key="GridCell.Tab.1.right/0.22.1280.710@0.22.1280.710" timestamp="1599654679922" />
     <state width="1238" height="198" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1595690263367" />
     <state width="1238" height="205" key="GridCell.Tab.1.right/0.23.1280.712@0.23.1280.712" timestamp="1595119799588" />
     <state width="1238" height="205" key="GridCell.Tab.1.right/0.23.1280.714@0.23.1280.714" timestamp="1595120589096" />
@@ -471,19 +422,21 @@
       <screen x="0" y="23" width="1280" height="714" />
     </state>
     <state x="228" y="130" key="IDE.errors.dialog/0.23.1280.714@0.23.1280.714" timestamp="1594384501403" />
-    <state x="84" y="23" width="997" height="714" key="SettingsEditor" timestamp="1595147451330">
-      <screen x="0" y="23" width="1280" height="714" />
+    <state x="84" y="22" width="982" height="710" key="SettingsEditor" timestamp="1599650979782">
+      <screen x="0" y="22" width="1280" height="710" />
     </state>
+    <state x="84" y="22" width="982" height="710" key="SettingsEditor/0.22.1280.710@0.22.1280.710" timestamp="1599650979782" />
     <state x="247" y="23" width="982" height="712" key="SettingsEditor/0.23.1280.712@0.23.1280.712" timestamp="1594538850293" />
     <state x="84" y="23" width="997" height="714" key="SettingsEditor/0.23.1280.714@0.23.1280.714" timestamp="1595147451330" />
     <state x="435" y="161" key="chooseDestDirectoryDialog" timestamp="1599378771059">
       <screen x="0" y="22" width="1280" height="713" />
     </state>
     <state x="435" y="161" key="chooseDestDirectoryDialog/0.22.1280.713@0.22.1280.713" timestamp="1599378771059" />
-    <state x="304" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1599369649279">
-      <screen x="0" y="22" width="1280" height="715" />
+    <state x="304" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1599974299080">
+      <screen x="0" y="22" width="1280" height="713" />
     </state>
-    <state x="304" y="208" key="com.intellij.ide.util.TipDialog/0.22.1280.710@0.22.1280.710" timestamp="1596946831278" />
+    <state x="304" y="208" key="com.intellij.ide.util.TipDialog/0.22.1280.710@0.22.1280.710" timestamp="1599650355601" />
+    <state x="304" y="209" key="com.intellij.ide.util.TipDialog/0.22.1280.713@0.22.1280.713" timestamp="1599974299080" />
     <state x="304" y="209" key="com.intellij.ide.util.TipDialog/0.22.1280.715@0.22.1280.715" timestamp="1599369649279" />
     <state x="304" y="210" key="com.intellij.ide.util.TipDialog/0.23.1280.709@0.23.1280.709" timestamp="1596354926827" />
     <state x="304" y="210" key="com.intellij.ide.util.TipDialog/0.23.1280.712@0.23.1280.712" timestamp="1596856895651" />
@@ -502,11 +455,11 @@
       <screen x="0" y="23" width="1280" height="714" />
     </state>
     <state x="406" y="87" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1280.714@0.23.1280.714" timestamp="1594384435977" />
-    <state x="305" y="60" width="670" height="677" key="search.everywhere.popup" timestamp="1599378300360">
-      <screen x="0" y="22" width="1280" height="713" />
+    <state x="305" y="60" width="670" height="674" key="search.everywhere.popup" timestamp="1599650367590">
+      <screen x="0" y="22" width="1280" height="710" />
     </state>
     <state x="305" y="39" width="670" height="700" key="search.everywhere.popup/0.0.1280.739@0.0.1280.739" timestamp="1593339888690" />
-    <state x="305" y="60" width="670" height="674" key="search.everywhere.popup/0.22.1280.710@0.22.1280.710" timestamp="1597387035742" />
+    <state x="305" y="60" width="670" height="674" key="search.everywhere.popup/0.22.1280.710@0.22.1280.710" timestamp="1599650367590" />
     <state x="305" y="60" width="670" height="677" key="search.everywhere.popup/0.22.1280.713@0.22.1280.713" timestamp="1599378300360" />
     <state x="305" y="60" width="670" height="679" key="search.everywhere.popup/0.22.1280.715@0.22.1280.715" timestamp="1599373520618" />
     <state x="305" y="61" width="670" height="673" key="search.everywhere.popup/0.23.1280.709@0.23.1280.709" timestamp="1596374332771" />
