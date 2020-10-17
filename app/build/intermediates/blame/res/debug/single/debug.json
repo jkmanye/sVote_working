@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_sorryfordisconnecting.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\drawable-v24\\sorryfordisconnecting.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_vote_manage.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\layout\\activity_vote_manage.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable_talk.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\drawable\\talk.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_menu.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\layout\\activity_main_menu.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_reauthenticating.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\layout\\activity_reauthenticating.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\font_nseb.ttf.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\font\\nseb.ttf"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable_openm.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\drawable\\openm.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_vote_alert_dialog.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\layout\\activity_vote_alert_dialog.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\font_bmjua.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\font\\bmjua.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_vote_generating.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\layout\\activity_vote_generating.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_meeting_schedule.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\layout\\activity_meeting_schedule.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_feedback.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\layout\\activity_feedback.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_talk.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\layout\\activity_talk.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable_openr.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\drawable\\openr.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_vote_pie_chart.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\layout\\activity_vote_pie_chart.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable_openn.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\drawable\\openn.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable_openg.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\drawable\\openg.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_meeting_generating.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\layout\\activity_meeting_generating.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_meeting_manage.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\layout\\activity_meeting_manage.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable_openj.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\drawable\\openj.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\font_jua.ttf.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\font\\jua.ttf"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_foreground.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable_svotelogo.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\drawable\\svotelogo.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_round.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\drawable\\ic_launcher_round.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_vote_schedule.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\layout\\activity_vote_schedule.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_aboutme.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\drawable-v24\\aboutme.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_account_info.xml.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\layout\\activity_account_info.xml"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "H:\\sVote_working-testsVote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "H:\\sVote_working-testsVote\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    }
+]

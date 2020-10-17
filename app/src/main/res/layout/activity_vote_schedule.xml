@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VoteScheduleActivity"
+    android:background="@color/colorWhite" >
+
+    <ScrollView
+        android:id="@+id/scrollview_vs"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" >
+
+        <LinearLayout
+            android:id="@+id/linear_vs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginStart="12dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textSize="18sp"
+                    android:text="@string/vn"
+                    android:fontFamily="@font/bmjua"
+                    android:background="@drawable/openg"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/title_vs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/scrollview_vs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/bmjua"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/subtitle_vs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/subtitleb_vs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/bmjua" />
+
+    <Button
+        android:id="@+id/button_ms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/jmt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="voteJoin"
+        android:fontFamily="@font/bmjua" />
+
+    <Button
+        android:id="@+id/goback_ms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/goback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="backToMenu"
+        android:fontFamily="@font/bmjua" />
+
+    <TextView
+        android:id="@+id/subtitleb_vs"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_width="144dp"
+        android:layout_height="36dp"
+        android:background="@color/colorWhite"
+        app:layout_constraintTop_toBottomOf="@id/title_vs"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/bmjua"
+        android:gravity="center_vertical|center_horizontal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

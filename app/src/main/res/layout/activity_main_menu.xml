@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".MainMenuActivity">
+
+    <Button
+        android:textColor="@color/colorWhite"
+        android:id="@+id/acc_mm"
+        android:layout_width="96dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/openn"
+        android:onClick="ai"
+        android:text="@string/acc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/bmjua" />
+
+    <Button
+        android:id="@+id/vs_mm"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/openj"
+        android:onClick="vs"
+        android:text="@string/vs"
+        app:layout_constraintBottom_toTopOf="@id/acc_mm"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/bmjua" />
+
+    <Button
+        android:id="@+id/gv_mm"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/openr"
+        android:onClick="vg"
+        android:text="@string/makevote"
+        app:layout_constraintBottom_toTopOf="@id/vman_mm"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/bmjua" />
+
+    <Button
+        android:id="@+id/vman_mm"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/openm"
+        android:onClick="vm"
+        android:text="@string/managevote"
+        app:layout_constraintBottom_toTopOf="@id/vs_mm"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/bmjua" />
+
+    <Button
+        android:textColor="@color/colorWhite"
+        android:id="@+id/fdbk_mm"
+        android:layout_width="96dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/openn"
+        android:onClick="fb"
+        android:text="@string/feed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/bmjua" />
+
+    <Button
+        android:id="@+id/hs_mm"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/openj"
+        android:onClick="ms"
+        android:text="@string/suda"
+        app:layout_constraintBottom_toTopOf="@id/fdbk_mm"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/bmjua" />
+
+    <Button
+        android:id="@+id/gh_mm"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/openr"
+        android:onClick="gm"
+        android:text="@string/gho"
+        app:layout_constraintBottom_toTopOf="@id/mh_mm"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/bmjua" />
+
+    <Button
+        android:id="@+id/mh_mm"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/openm"
+        android:onClick="mm"
+        android:text="@string/mh"
+        app:layout_constraintBottom_toTopOf="@id/hs_mm"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/bmjua" />
+
+    <ImageView
+        android:layout_width="188dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/svotelogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
